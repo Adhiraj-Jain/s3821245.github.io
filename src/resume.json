@@ -1,0 +1,61 @@
+{
+    "about": {
+        "name": "Adhiraj Jain",
+        "profession": "Software Developer",
+        "picture": "",
+        "aboutme": "Hi, My name is Adhiraj Jain and I am a software Developer"
+    },
+    "profiles": [
+        {
+            "network": "LinkedIn",
+            "username": "Adhiraj Jain",
+            "url": "https://www.linkedin.com/in/adhiraj-jain-42740a1a3/",
+            "icon": "fab fa-2x fa-linkedin"
+        },
+        {
+            "network": "GitHub",
+            "username": "Adhiraj-Jain",
+            "url": "https://github.com/Adhiraj-Jain",
+            "icon": "fab fa-2x fa-github"
+        }
+    ],
+    "work": [
+        {
+            "company": "Coding Ninjas",
+            "position": "Teaching Assistant",
+            "startDate": "12-2020",
+            "endDate": "4-2021",
+            "summary": ""
+        }
+    ],
+    "education": [
+        {
+            "institution": "Royal Melbourne Institute of Technology",
+            "degree": "Software Engineering",
+            "studyType": "Bachelor",
+            "startDate": "2020-03-02",
+            "endDate": "Expected 2023-12-31"
+        },
+        {
+            "institution": "Darbari Lal DAV Model School",
+            "degree": "Science",
+            "studyType": "High School",
+            "startDate": "2018-03-1",
+            "endDate": "2019-05-31"
+        }
+    ],
+    "skills": [
+        {
+            "name": "",
+            "level": ""
+        },
+        {
+            "name": "",
+            "level": ""
+        },
+        {
+            "name": "",
+            "level": ""
+        }
+    ]
+}

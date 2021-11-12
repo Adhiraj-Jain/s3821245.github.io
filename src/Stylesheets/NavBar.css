@@ -1,0 +1,22 @@
+:root {
+     --color1: red;
+ }
+
+nav {
+    background-color: transparent;
+    transition: all 350ms ease-out;
+}
+
+/* nav.scrolled {
+    background-color: red;
+} */
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+
+.navbar-nav a:hover {
+    /* text-decoration: underline; */
+    border-bottom: 0.1rem solid white;
+    
+}
