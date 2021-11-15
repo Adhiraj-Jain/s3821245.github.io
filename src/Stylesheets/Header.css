@@ -33,7 +33,7 @@
 .text-location {
   position: absolute;
   top: 35%;
-  left: 8%;
+  left: 5%;
   /* margin-right: 50%; */
   /* transform: translate(-40%, -50%); */
   /* position: absolute; */
@@ -42,8 +42,8 @@
 } 
 
 .AboutText {
-  font-size: 3rem;
-  font-weight: 800;
+  font-size: 3.5rem;
+  font-weight: 700;
 }
 
 @keyframes textAnimation {
@@ -59,7 +59,8 @@
   color: linear-gradient(0.25turn, #F9004D, #e20148, #c7003f);
   display: inline-block;
   opacity: 0;
-  font-size: 5rem;
+  font-size: 5.5rem;
+  font-weight: 800;
   animation-name: textAnimation;
   animation-duration: 3s;
   /* animation-delay: 2s; */

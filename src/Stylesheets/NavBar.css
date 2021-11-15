@@ -1,11 +1,12 @@
-:root {
-     --color1: red;
- }
-
-nav {
+.navbar {
     background-color: transparent;
     transition: all 350ms ease-out;
 }
+
+.navbarContainer.scroll {
+    background-color: black;
+}
+
 
 /* nav.scrolled {
     background-color: red;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import MenuItem from '../Elements/MenuItem';
 import Resume from '../../resume.json';
@@ -10,15 +10,30 @@ const handleMenuClick = (e) => {
 }
 
 const NavBar = () => {
+    const [navBar, setNavBar] = useState(false);
+
+    const changeBackground = () => {
+
+        if (window.scrollY >= 50) {
+            setNavBar(true)
+        }
+        else {
+            setNavBar(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground)
+
+    const navBarClassName = 'navbarContainer container-fluid pt-0 mx-4' + (navBar ? ' scroll' : '');
     return (
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
-            <div className="container-fluid">
+        <nav className='navbar fixed-top navbar-expand-lg navbar-light py-0'>
+            <div className={navBarClassName}>
                 <a className="navbar-brand fs-2 text p-4 text-white" href="#">{Resume.about.name}</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i className="fas fa-bars"></i>
                 </button>
-                <div class="d-lg-flex flex-row-reverse collapse navbar-collapse p-3" id="navbarNav">
-                    <ul class=" navbar-nav">
+                <div className="d-lg-flex flex-row-reverse collapse navbar-collapse p-3" id="navbarNav">
+                    <ul className=" navbar-nav">
                         <MenuItem text="About Me" href="#aboutMe" onClick={handleMenuClick} />
                         <MenuItem text="Skills" href="#skills" onClick={handleMenuClick} />
                         <MenuItem text="Experience" href="#experience" onClick={handleMenuClick} />
