@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Layout/Header';
 import About from "./components/About/About";
 import Skills from './components/Skills/Skills';
+import Experience from './components/Experience/Experience';
 
 // <img src={logo} className="App-logo" alt="logo" />
 // <p>
@@ -23,6 +24,7 @@ function App() {
       <Header className="App-header" />
       <About />
       <Skills />
+      <Experience />
     </div>
   );
 }
