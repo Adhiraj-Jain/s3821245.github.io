@@ -28,7 +28,7 @@ const NavBar = () => {
     return (
         <nav className='navbar fixed-top navbar-expand-lg navbar-light py-0'>
             <div className={navBarClassName}>
-                <a className="navbar-brand fs-2 text p-4 text-white" href="#">{Resume.about.name}</a>
+                <a className="navbar-brand text p-4 text-white" href="#">{Resume.about.name}</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="fas fa-bars"></i>
                 </button>
@@ -37,7 +37,8 @@ const NavBar = () => {
                         <MenuItem text="About Me" href="#aboutMe" onClick={handleMenuClick} />
                         <MenuItem text="Skills" href="#skills" onClick={handleMenuClick} />
                         <MenuItem text="Experience" href="#experience" onClick={handleMenuClick} />
-                        <MenuItem text="Articles" href="#articles" onClick={handleMenuClick} />
+                        <MenuItem text="Projects" href="#projects" onClick={handleMenuClick} />
+                        <MenuItem text="Contact Me" href="#contactme" onClick={handleMenuClick} />
                     </ul>
                 </div>
             </div>

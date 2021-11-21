@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Header from './components/Layout/Header';
 import About from "./components/About/About";
+import Skills from './components/Skills/Skills';
 
 // <img src={logo} className="App-logo" alt="logo" />
 // <p>
@@ -21,6 +22,7 @@ function App() {
     <div className="App">
       <Header className="App-header" />
       <About />
+      <Skills />
     </div>
   );
 }
