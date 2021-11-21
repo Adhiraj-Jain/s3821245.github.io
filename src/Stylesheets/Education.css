@@ -1,0 +1,14 @@
+div span.degree {
+    letter-spacing: 0.3px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    padding-right: 5px;
+}
+
+div span.institution {
+    color: black;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins';
+    padding-left: 5px;
+}

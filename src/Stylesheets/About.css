@@ -3,6 +3,97 @@
     padding-bottom : 5rem;
 }
 
+.about-pic-col {
+    text-align: center;
+    padding-right: 0px;
+}
+
 img {
-    width: 50%;
+    width: 60%;
+    box-shadow: 0 0 40px rgb(0 0 0 / 30%);
+}
+
+.about-row {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.about-text-col {
+  text-align: left; 
+  /* box-shadow: 0 0 40px rgb(0 0 0 / 30%); */
+  /* position: absolute; */
+  /* top: 35%; */
+  /* margin-left: 2%; */
+  /* margin-right: 50%; */
+  /* transform: translate(-40%, -50%); */
+  /* position: absolute; */
+    /* font-family: "Poppins"; */
+}
+
+span.about-text {
+    margin-bottom: 15px;
+}
+
+h3.about-heading {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    font-weight: 800;
+    font-family: "Poppins";
+    color: #000;
+    line-height: 2.5rem;
+
+}
+
+p.about-para {
+    color: #767676;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    letter-spacing: .5px;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+
+ul.about-ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+ul.about-ul li {
+    margin-right: 2rem;
+    /* border-bottom: 0.2rem solid black; */
+}
+
+ul.about-ul li:after {
+    content: "";
+    display: block;
+    /* margin: 0 auto; This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    border-bottom: 0.2rem solid black;
+    transition: 0.2s;
+}
+
+ul.about-ul li button{
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  /* color: white; */
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+}
+
+ul.about-ul li.active:after {
+    content: "";
+    display: block;
+    /* margin: 0 auto; This will center the border. */
+    width: 100%;
+    border-bottom: 0.2rem solid #B42B51;
+    
+}
+
+ul.about-ul li.active button {
+    color: #B42B51;
 }
