@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+#Quote {
+    background-color: white;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    /* display: block; */
+    color: black;
+}
+
+#Quote .inside {
+    padding-left: 6rem;
+    padding-right: 4rem;
+}
+
+#Quote .inside span.quote {
+    font-family: 'Josefin Sans', sans-serif;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1.2rem;
+}
+
+#Quote .inside .author {
+    display: block;
+    margin-bottom: 3rem;
+}
