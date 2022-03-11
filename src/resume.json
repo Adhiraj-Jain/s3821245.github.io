@@ -21,41 +21,151 @@
     ],
     "work": [
         {
+            "company": "Uniware Pty. Ltd.",
+            "position": "Software Developer",
+            "year": "January, 2022 - Current",
+            "summary": "Solving 300+ doubts monthly based on Data Structures and Algorithms and evaluation of projects.",
+            "location": "Melbourne, Victoria, Australia"
+        },
+        {
             "company": "Coding Ninjas",
             "position": "Teaching Assistant",
-            "startDate": "12-2020",
-            "endDate": "4-2021",
-            "summary": ""
+            "year": "December, 2020 - April, 2021",
+            "summary": "Solving 300+ doubts monthly based on Data Structures and Algorithms and evaluation of projects.",
+            "location": "Delhi, India"
+        },
+        {
+            "company": "Club Hash",
+            "position": "President",
+            "year": "April, 2018 - March, 2019",
+            "summary": "Managing and organizing Tech-based inter- school competition events. Leading a team of professionals from various departments such as financial, logistics, developers etc.",
+            "location": "Delhi, India"
         }
     ],
     "education": [
         {
-            "institution": "Royal Melbourne Institute of Technology",
-            "degree": "Software Engineering",
-            "studyType": "Bachelor",
-            "startDate": "2020-03-02",
-            "endDate": "Expected 2023-12-31"
+            "institution": "RMIT University, Melbourne, AUS",
+            "degree": "Bachelor of Software Engineering",
+            "year": "2020-2023 (Expected)"
         },
         {
             "institution": "Darbari Lal DAV Model School",
-            "degree": "Science",
-            "studyType": "High School",
-            "startDate": "2018-03-1",
-            "endDate": "2019-05-31"
+            "degree": "Engineering Science",
+            "year": "2018-2019"
         }
     ],
-    "skills": [
+    "certification": [
         {
-            "name": "",
-            "level": ""
+            "name": "The Web Developer Bootcamp",
+            "institution": "Colt Steele, Udemy",
+            "year": "March, 2021"
         },
         {
-            "name": "",
-            "level": ""
+            "name": "Data Science & Machine Learning Complete",
+            "institution": "Coding Ninjas, India",
+            "year": "October, 2020"
         },
         {
-            "name": "",
-            "level": ""
+            "name": "Data Structures & Algo with Python",
+            "institution": "Coding Ninjas, India",
+            "year": "December, 2019"
+        },
+        {
+            "name": "Introduction to Python",
+            "institution": "Coding Ninjas, India",
+            "year": "September, 2019"
+        },
+        {
+            "name": "Microsoft Office Specialist",
+            "institution": "Compudon, Microsoft",
+            "year": "May, 2019"
         }
-    ]
+    ],
+    "awards": [
+        {
+            "name": "Excellence in On The Spot International Photography Contest",
+            "institution": "Shoots & Shoots Academy",
+            "year": "2017-18"
+        }
+    ],
+    "skills": {
+        "Web Development": {
+            "HTML": 4,
+            "CSS": 4,
+            "JavaScript": 3,
+            "React": 3,
+            "Node": 3,
+            "SpringBoot": 3
+        },
+        "Object Oriented Programming Languages": {
+            "C++": 3,
+            "Java": 3,
+            "Python": 3,
+            "Ruby": 3
+        },
+        "Cloud and Databases": {
+            "AWS": 3,
+            "Heroku": 3,
+            "MySQL": 4,
+            "DynamoDB": 4,
+            "PostgreSQL": 4
+        },
+        "Integrated Development Environments (IDE's)": {
+            "Visual Studio Code": 4,
+            "Eclipse": 3,
+            "Jupyter Notebook": 4,
+            "IntelliJ": 4,
+            "Github": 4
+        }
+    },
+    "projects": {
+        "Bookeroo E-commerce Web App": {
+            "img": "/Bookeroo E-commerce Web App.jpeg",
+            "summary": "Followed and experienced Test Driven Development and agile style of development. Integrated PayPal API for checkout. Implemented Advanced UI Patterns.",
+            "month": "October 2021",
+            "tools": "React, Spring boot, AWS Amplify, AWS Beanstalk, CircleCI (CI/CD), GitHub, Docker.",
+            "aim": "Aim of this project is to make an ecommerce web application for books.",
+            "link": "https://github.com/Adhiraj-Jain/Bookeroo-Ecommerce-Web-App"
+        },
+        "Qwirkle: A Board Game": {
+            "img": "/Qwirkle- A Board Game.jpeg",
+            "summary": "Implemented complex software algorithms with immense use of Data Structures and algorithms. Implemented test cases to ensure game works fine in normal and edge case scenarios. Used various software design and development strategies.",
+            "month": "May 2021",
+            "tools": "C++",
+            "aim": "Implemented a multiple player board game using Object Oriented programming.",
+            "link": "https://github.com/Adhiraj-Jain/Qwirkle-A-Board-Game"
+        },
+        "E-commerce Web Application": {
+            "img": "/E-commerce Web Application.jpeg",
+            "summary": "Developed a full stack web application using agile style of methodologies. Integrated SendGrid emailing system into the application for various emailing functionalities.",
+            "month": "May 2021",
+            "tools": "Ruby on Rails, AWS cloud9 IDE, Heroku",
+            "aim": "The aim of this project is to make an e-commerce web application.",
+            "link": "https://github.com/Adhiraj-Jain/Ecommerce-Web-Application"
+        },
+        "Black Jack: A Card Game": {
+            "img": "/Black Jack- A Card Game.jpeg",
+            "summary": "It has been built with extensive use of skills such as Data structures, AWT/Swing.",
+            "month": "November 2020",
+            "tools": "Java, Eclipse",
+            "aim": "Purpose of this project is to build a black jack game engine and its AWT/Swing Graphical user Interface.",
+            "link": "https://github.com/Adhiraj-Jain/Black-Jack-Game"
+        },
+        "Instagram Bot": {
+            "img": "/Instagram Bot.png",
+            "summary": "The bot can extract information about someone's profile including followers, post information etc. The bot can search over the website, can like or comment someone's post. It can also see a user’s story. It can find profiles with top followers and can Follow/Unfollow a user. Mathematical operations performed like finding mean, median etc.",
+            "month": "December 2019",
+            "tools": "Beautiful Soup, Selenium, NumPy and pandas.",
+            "aim": "Purpose of project is to scrap data from Instagram web using algorithms.",
+            "link": "https://github.com/Adhiraj-Jain/Instagram-Bot"
+        },
+        "FitBuddy: A Fitness Application": {
+            "img": "/FitBuddy- A Fitness Application.png",
+            "summary": "Built this prototype as an assignment work during course program. Different User Interface patterns have been taken into consideration to make it more effective and interactive.",
+            "month": "June 2020",
+            "tools": "Figma, publicly available online assets.",
+            "aim": "Purpose of this project is to build a prototype of a fitness application which show users what exercises to do and explain exactly how to do them.",
+            "link": "https://www.figma.com/proto/wJqV2XQS7tCcjsBNr8K8Py/FInal-FitBuddy?%20node-%20id=1%3A5308&scaling=scale-down&node-id=1%3A5269"
+        }
+    }
 }
