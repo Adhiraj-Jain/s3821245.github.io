@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className="Header particles-js">
             <ParticleBackground />
-            <NavBar />
+            {/* <NavBar /> */}
             <TextAnimation />
         </div>
     );
