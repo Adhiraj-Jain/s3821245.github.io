@@ -38,7 +38,7 @@ const NavBar = () => {
                         <MenuItem text="Skills" href="#skills" onClick={handleMenuClick} />
                         <MenuItem text="Experience" href="#experience" onClick={handleMenuClick} />
                         <MenuItem text="Projects" href="#projects" onClick={handleMenuClick} />
-                        <MenuItem text="Contact Me" href="#contactme" onClick={handleMenuClick} />
+                        <MenuItem text="Contact" href="#contactme" onClick={handleMenuClick} />
                     </ul>
                 </div>
             </div>
