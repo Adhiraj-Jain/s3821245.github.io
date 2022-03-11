@@ -1,4 +1,6 @@
 .Header {
+  position: relative;
+    display: block;
     background-color: black;
 }
 
@@ -53,6 +55,7 @@
   95% {opacity: 0; transform: translateY(-30px);}
   100% {opacity: 0; transform: translateY(-30px);}
 }
+
 
 .AboutText span.Animated-Text {
   color: #F9004D;
