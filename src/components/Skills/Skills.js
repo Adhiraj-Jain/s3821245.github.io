@@ -1,6 +1,5 @@
 import React from 'react';
 import "../../Stylesheets/Skills.css";
-import EachSkill from './EachSkill';
 import mydata from '../../resume.json';
 import EachSkillSection from './EachSkillSection';
 
@@ -9,7 +8,6 @@ const Skills = () => {
     return (
         <div id="skills" className="skill-section">
             <span className="section-headings skill-heading">Skills</span>
-            {/* <hr /> */}
             <div className="skill-container container-fluid">
                 <div className="row mb-3">
                     <EachSkillSection name="Web Development" skills={skills["Web Development"]} />

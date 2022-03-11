@@ -2,7 +2,6 @@ import React from 'react';
 import EachSkill from './EachSkill';
 
 const EachSkillSection = (props) => {
-    console.log(props.skills)
     return (
         <div className="col-md-5">
             <span className="skill-tagline">{props.name}</span>
