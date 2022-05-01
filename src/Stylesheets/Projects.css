@@ -1,0 +1,85 @@
+#projects {
+    display: block;
+}
+
+#projects .projects-bg {
+    width: 100%;
+    background-size: cover;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/project_bg.jpeg");
+    background-repeat: no-repeat;
+
+}
+
+#projects #projects-container {
+    padding-top: 8rem;
+
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+#projects #projects-container .row {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    /* margin-bottom: 5rem;    */
+}
+
+#projects #projects-container .row .card {
+    border-radius: 3px;
+    /* border-color: transparent; */
+    height: 200px;
+    /* box-shadow: 0 0 40px rgb(0 0 0 / 30%); */
+}
+
+
+#projects #projects-container .row .card img {
+    border-radius: 3px;
+    opacity: 0.2;
+    object-fit: cover;
+    /* border-color: transparent; */
+    height: 200px;
+}
+
+#projects #projects-container .row .card .card-img-overlay {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#projects #projects-container .row .eachProject {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+#projects #projects-container .row .card .card-title {
+    font-size: 1.4em;
+}
+
+#projects #projects-container .row .card .Button {
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+    border: 1.5px solid #CCCCCC;
+    border-color: hsla(0, 0%, 100%, .3);
+    padding: 10px 20px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 0.6em;
+    z-index: 2;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+    transition: all .2s cubic-bezier(.645, .045, .355, 1);
+}
+
+#projects #projects-container .card:hover {
+    background-image: linear-gradient(rgba(249, 0, 77, 0.7), rgba(0, 0, 0, 0));
+}
+
+#projects #projects-container .card .Button:hover {
+    border: 1.5px solid rgb(249, 0, 77);
+    /* height: 33px; */
+    padding: 9px 20px;
+    background-color: #f9004d;
+}
