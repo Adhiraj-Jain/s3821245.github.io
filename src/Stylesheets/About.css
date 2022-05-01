@@ -1,4 +1,6 @@
 .aboutme {
+    position: relative;
+    display: block;
     padding-top : 5rem;
     padding-bottom : 5rem;
 }
