@@ -14,7 +14,7 @@ const Skills = () => {
                     <div className="col-md-2"></div>
                     <EachSkillSection name="Object Oriented Programming Languages" skills={skills["Object Oriented Programming Languages"]} />
                 </div>
-                <hr />
+                {/* <hr /> */}
                 <div className="row mt-3">
                     <EachSkillSection name="Cloud and Databases" skills={skills["Cloud and Databases"]} />
                     <div className="col-md-2"></div>

@@ -5,9 +5,9 @@ const EachSkillSection = (props) => {
     return (
         <div className="col-md-5">
             <span className="skill-tagline">{props.name}</span>
-            <div className="eachSkill-section">
+            <div className="skills">
                 {Object.keys(props.skills).map(key => {
-                    return (<EachSkill skillName={key} value={props.skills[key]} />)
+                    return (<div className="skillname">{key}</div>)
                 }
                 )}
             </div>
@@ -16,3 +16,5 @@ const EachSkillSection = (props) => {
 };
 
 export default EachSkillSection;
+
+{/* <EachSkill skillName={key} value={props.skills[key]} /> */ }
