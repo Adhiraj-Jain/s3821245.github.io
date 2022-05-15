@@ -1,41 +1,43 @@
-#footer{
+.footer {
+    width: 100%;
+    height: 2.5rem;
+    position: sticky;
     display: block;
-    background-color: black;
-}
-
-#footer .container {
-    /* margin-top: 5rem; */
-    /* padding-top: 5rem; */
-    /* padding-bottom: 1rem; */
+    bottom: 0;
 }
 
 #footer ul {
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
 }
 
-#footer ul li{
+#footer ul li {
     margin: 1rem;
     list-style-type: none;
     color: white;
 }
 
-#footer ul li a{
+#footer ul li a {
     width: 2.7rem;
     height: 2.7rem;
     line-height: 2.1em;
     font-size: 1.2rem;
     display: inline-block;
-    border: 2px solid rgba(198,201,216,.75);
+    border: 2px solid rgba(198, 201, 216, .75);
     border-radius: 100%;
     text-align: center;
     color: white;
-    transition: all .2s cubic-bezier(.645,.045,.355,1);
+    transition: all .2s cubic-bezier(.645, .045, .355, 1);
 }
 
 #footer ul li a:hover {
-background-color: #616161;
-border: 2px solid #616161;
-font-size: 1.4rem;
-line-height: 1.9em;
+    background-color: #616161;
+    border: 2px solid #616161;
+    font-size: 1.4rem;
+    line-height: 1.9em;
 }
