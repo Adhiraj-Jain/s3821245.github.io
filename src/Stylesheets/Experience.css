@@ -1,11 +1,18 @@
 .experience-section {
+    position: relative;
     padding-top: 5rem;
     padding-bottom: 2rem;
-    margin-left: 4rem;
+    padding-left: 4rem;
+    /* background-color: rgb(8, 8, 8); */
+    background-color: black;
+}
+
+.experience-section .section-headings {
+    background-color: #fff;
 }
 
 .each-work {
-    border-top: 1px rgba(0, 0, 0, 0.192) solid;
+    border-top: 1px rgba(255, 255, 255, 0.192) solid;
     padding-top: 1rem;
 }
 
@@ -21,6 +28,7 @@
 .experience-container span.company {
     font-size: 1.5rem;
     font-weight: 700;
+    color: #fff;
 }
 
 .experience-container span.year {
@@ -31,32 +39,114 @@
 .experience-container span.position {
     font-size: 1.2rem;
     font-weight: 600;
+    color: #fff;
 }
 
 .experience-container span.summary {
     padding-top: 0.2rem;
     font-size: 1rem;
+    color: rgb(234, 234, 234);
 }
 
 .experience-container span.summary-heading {
-    font-weight: 700;   
+    font-weight: 700;
 }
 
 .experience-container .detail-button {
-  margin-top: 0.5rem;
-  display: block;
-  color: white;
-  background-color: black;
-  border: 1px solid black;
-  font-size: 1rem;
-  font-weight: 500;
-  /* color: white; */
-  padding: 5px 18px;
-  /* text-align: center; */
-  /* text-decoration: none; */
+    margin-top: 0.5rem;
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    /* color: white; */
+    padding: 5px 18px;
+    /* text-align: center; */
+    /* text-decoration: none; */
 }
 
 .experience-container span.location {
     padding-top: 0.4rem;
     color: #22A39F;
+}
+
+.switch {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.switch-button {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    overflow: hidden;
+    width: 234px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding-right: 120px;
+    position: relative;
+}
+
+.switch-button::before {
+    content: "Volunteer";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.switch-button-checkbox {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+
+.switch-button-checkbox:checked+.switch-button-label::before {
+    transform: translateX(120px);
+    transition: transform 300ms linear;
+}
+
+.switch-button-checkbox+.switch-button-label {
+    position: relative;
+    padding: 15px 0;
+    display: block;
+    user-select: none;
+    pointer-events: none;
+}
+
+.switch-button-checkbox+.switch-button-label::before {
+    content: "";
+    /* background: #B42B51; */
+    background: #F9004D;
+    background: linear-gradient(0.25turn, #F9004D, #e20148, #c7003f);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 30px;
+    transform: translateX(0);
+    transition: transform 300ms;
+}
+
+.switch-button-label-span {
+    position: relative;
 }
