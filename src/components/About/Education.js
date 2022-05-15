@@ -11,10 +11,10 @@ const Education = () => {
                 return (<div className="my-3">
                     <span key={key} className="d-block">
                         <span className="degree">{educationData[key]["degree"]}</span>
-                        -
+                        <span className='dash'>-</span>
                         <span className="institution">{educationData[key]["institution"]}</span>
                     </span>
-                    <span key={key} className="d-block">
+                    <span key={key} className="d-block year">
                         {educationData[key]["year"]}
                     </span>
                 </div>)

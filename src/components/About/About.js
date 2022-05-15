@@ -22,10 +22,10 @@ const About = () => {
         <section id='aboutMe' className="aboutme container-fluid px-0">
             <div className="row about-row">
                 <div className="about-pic-col col-lg-6">
-                    <img className="" src="Aboutme.jpg"></img>
+                    <img className="" src="Aboutme.jpg" alt="About"></img>
                 </div>
-                <div className="about-text-col col-lg-6 d-none d-lg-block mt-2">
-                    <div className="col-lg-10 d-none d-lg-block">
+                <div className="about-text-col col-lg-6 mt-2">
+                    <div className="col-lg-10">
                         <span className="section-headings about-text">About me</span>
                         <h3 className="about-heading mt-3">Software Developer based in Australia</h3>
                         <p className="about-para mt-4">I'm web designer, and I'm very passionate and dedicated to my work.
