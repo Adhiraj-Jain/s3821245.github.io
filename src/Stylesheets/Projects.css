@@ -1,4 +1,5 @@
 #projects {
+    position: relative;
     display: block;
 }
 
@@ -11,9 +12,20 @@
 
 }
 
-#projects #projects-container {
-    padding-top: 8rem;
+.project-heading {
+    padding-top: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.project-heading .section-headings {
+    background-color: #fff;
+}
+
+#projects #projects-container {
+    padding-top: 4rem;
     padding-bottom: 8rem;
     position: relative;
 }

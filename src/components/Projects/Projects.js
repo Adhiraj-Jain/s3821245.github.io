@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import "../../Stylesheets/Projects.css";
 import EachProject from './EachProject';
 import mydata from '../../resume.json';
-import Popup from './Popup'
 
 const Projects = ({ openModal }) => {
     const projects = mydata["projects"];
@@ -19,18 +18,21 @@ const Projects = ({ openModal }) => {
 
     return (
         <div id="projects">
-            <div class="projects-bg">
+            < div className="projects-bg" >
+                <div className="project-heading">
+                    <span className="section-headings">Projects</span>
+                </div>
                 <div id="projects-container" className="container">
-                    <div class="row">
+                    <div className="row">
                         {Object.keys(projects).map(key => {
-                            return (<EachProject value={key} isVisible={aim} project={projects[key]} openModal={openModal} />)
+                            return (<EachProject key={key} value={key} isVisible={aim} project={projects[key]} openModal={openModal} />)
                         }
                         )}
                     </div>
                 </div>
-            </div>
+            </div >
 
-        </div>
+        </div >
     );
 };
 
