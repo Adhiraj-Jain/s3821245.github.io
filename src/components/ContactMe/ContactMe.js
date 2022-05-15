@@ -4,9 +4,9 @@ import ContactForm from './ContactForm';
 
 const ContactMe = () => {
     return (
-        <div className="contactme">
-            <div class="shape">
-                <img class="svg" src="paper.svg"></img>
+        <div id="contactme" className="contactme">
+            <div className="shape">
+                <img className="svg" src="paper.svg" alt="tear paper"></img>
             </div>
             <div className="form-container container">
                 <div className="d-flex justify-content-center">

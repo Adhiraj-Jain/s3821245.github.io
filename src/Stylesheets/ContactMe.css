@@ -2,17 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@700&display=swap');
 
 .contactme {
-    /* display: block; */
-    /* background-color: white; */
-}
-
-.contactme {
+    position: relative;
     color: white;
-    position:relative;
     background-size: cover;
     width: 100%;
     height: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../img/contactme2.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/contactme2.jpeg");
     border-top: 2px solid white;
     background-repeat: no-repeat;
     float: left;
@@ -20,7 +15,7 @@
 }
 
 .contactme .shape {
-    position:absolute;
+    position: absolute;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -35,14 +30,14 @@
     width: 100%;
     height: 100%;
     background: transparent;
-    
+
 }
 
 .contactme .shape img {
     /* width: 100%; */
     border: none;
-    box-shadow:none;
-    vertical-align: middle; 
+    box-shadow: none;
+    vertical-align: middle;
 }
 
 .contactme .form-container {
@@ -57,7 +52,7 @@
     color: white;
     font-size: 3.5rem;
     margin-left: 4rem;
-    text-transform:initial;
+    text-transform: initial;
     padding: 0;
     margin: 0;
     align-self: center;
@@ -72,14 +67,15 @@
 
 
 #contact-form form .input-group .textarea {
-    display:block;
+    display: block;
     /* margin-left: 1rem; */
 }
 
-#contact-form form label{
+#contact-form form label {
     font-weight: 500;
     /* margin-left: 1rem; */
 }
+
 /* #contactme #contact-form form {
     display: inline-block;
 } */
@@ -104,5 +100,5 @@
 }
 
 .contactme .form-container .contact-left div.contactme-each-section {
-margin-bottom: 15px;
+    margin-bottom: 15px;
 }
