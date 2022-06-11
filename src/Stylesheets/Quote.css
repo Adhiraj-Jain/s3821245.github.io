@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 #Quote {
+    position: relative;
     background-color: white;
     padding-top: 6rem;
     padding-bottom: 1.5rem;
-    /* display: block; */
     color: black;
 }
 
