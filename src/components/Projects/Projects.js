@@ -17,7 +17,7 @@ const Projects = ({ openModal }) => {
     window.onresize = showAim;
 
     return (
-        <div id="projects">
+        <section id="projects">
             < div className="projects-bg" >
                 <div className="project-heading">
                     <span className="section-headings">Projects</span>
@@ -32,7 +32,7 @@ const Projects = ({ openModal }) => {
                 </div>
             </div >
 
-        </div >
+        </section>
     );
 };
 
