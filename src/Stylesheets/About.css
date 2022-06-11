@@ -1,11 +1,11 @@
-.aboutme {
-    /* background-color: rgb(8, 8, 8); */
+section.aboutme {
     background-color: black;
-    /* position: relative; */
+    position: relative;
     display: block;
     padding-top: 5rem;
     padding-bottom: 5rem;
     box-sizing: border-box;
+    width: 100vw;
 }
 
 .about-pic-col {
@@ -26,14 +26,6 @@ img {
 
 .about-text-col {
     text-align: left;
-    /* box-shadow: 0 0 40px rgb(0 0 0 / 30%); */
-    /* position: absolute; */
-    /* top: 35%; */
-    /* margin-left: 2%; */
-    /* margin-right: 50%; */
-    /* transform: translate(-40%, -50%); */
-    /* position: absolute; */
-    /* font-family: "Poppins"; */
 }
 
 span.about-text {
@@ -64,22 +56,21 @@ p.about-para {
 }
 
 ul.about-ul {
+    display: flex;
+    flex-direction: flex-row;
+    justify-content: flex-start;
     padding-left: 0;
     list-style-type: none;
 }
 
 ul.about-ul li {
     margin-right: 2rem;
-    /* border-bottom: 0.2rem solid black; */
 }
 
 ul.about-ul li:after {
     content: "";
     display: block;
-    /* margin: 0 auto; This will center the border. */
     width: 50%;
-    /* Change this to whatever width you want. */
-    /* border-bottom: 0.2rem solid black; */
     border-bottom: 0.2rem solid #fff;
     transition: 0.2s;
 }
@@ -91,7 +82,6 @@ ul.about-ul li button {
     font-size: 1.2rem;
     font-weight: 500;
     color: #fff;
-    /* padding: 15px 32px; */
     text-align: center;
     text-decoration: none;
 }
@@ -99,7 +89,6 @@ ul.about-ul li button {
 ul.about-ul li.active:after {
     content: "";
     display: block;
-    /* margin: 0 auto; This will center the border. */
     width: 100%;
     border-bottom: 0.2rem solid #F9004D;
     border-bottom-color: linear-gradient(0.25turn, #F9004D, #e20148, #c7003f);
@@ -107,7 +96,49 @@ ul.about-ul li.active:after {
 }
 
 ul.about-ul li.active button {
-    /* color: #B42B51; */
     color: #F9004D;
     color: linear-gradient(0.25turn, #F9004D, #e20148, #c7003f);
+}
+
+@media screen and (max-device-width: 500px) {
+    ul.about-ul {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    ul.about-ul li {
+        text-align: center;
+        background-color: #fff;
+        margin: 0.3rem 0rem;
+        border-radius: 10px;
+    }
+
+    ul.about-ul li button {
+        color: black;
+    }
+
+    ul.about-ul li::after {
+        width: 100%;
+        border-bottom: none;
+    }
+
+    ul.about-ul li.active {
+        background-image: linear-gradient(0.25turn, #F9004D, #e20148, #c7003f);
+    }
+
+    ul.about-ul li.active button {
+        color: #fff;
+    }
+
+    ul.about-ul li.active:after {
+        border-bottom: none;
+
+    }
+}
+
+@media screen and (max-device-width: 900px) {
+    .about-pic-col {
+        display: none;
+    }
 }
