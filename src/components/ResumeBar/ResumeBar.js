@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Resume from '../../resume.json';
 import '../../Stylesheets/ResumeBar.scss';
 
+/* eslint-disable */
 const ResumeBar = () => {
     const [navBar, setNavBar] = useState(false);
 
