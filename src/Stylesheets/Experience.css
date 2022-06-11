@@ -2,13 +2,12 @@
     position: relative;
     padding-top: 5rem;
     padding-bottom: 2rem;
-    padding-left: 4rem;
-    /* background-color: rgb(8, 8, 8); */
     background-color: black;
 }
 
 .experience-section .section-headings {
     background-color: #fff;
+    margin-left: 2rem;
 }
 
 .each-work {
@@ -60,10 +59,7 @@
     border: 1px solid #fff;
     font-size: 1rem;
     font-weight: 500;
-    /* color: white; */
     padding: 5px 18px;
-    /* text-align: center; */
-    /* text-decoration: none; */
 }
 
 .experience-container span.location {
@@ -134,7 +130,6 @@
 
 .switch-button-checkbox+.switch-button-label::before {
     content: "";
-    /* background: #B42B51; */
     background: #F9004D;
     background: linear-gradient(0.25turn, #F9004D, #e20148, #c7003f);
     height: 100%;

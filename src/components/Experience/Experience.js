@@ -4,7 +4,6 @@ import mydata from '../../resume.json';
 import EachWork from './EachWork';
 
 const Experience = () => {
-    const works = mydata["work"]
     const [currWork, setWork] = useState(-1);
     const [showButton, setButton] = useState(false);
     const [workType, setWorkType] = useState("work");
@@ -33,25 +32,24 @@ const Experience = () => {
     }
 
     useEffect(changeButton, [])
-    // window.addEventListener('resize', changeButton)
     window.onresize = changeButton;
 
     return (
-        <div id="experience" className="experience-section">
+        <section id="experience" className="experience-section">
             <span className="section-headings">Experience</span>
             <div className="experience-container container-fluid">
-                {Object.keys(mydata[workType]).map(key => {
-                    return (<EachWork buttonAvailable={showButton} show={currWork} value={key} work={mydata[workType][key]} onClicked={showContent} />)
+                {Object.keys(mydata[workType]).map((key, index) => {
+                    return (<EachWork buttonAvailable={showButton} show={currWork} value={key} work={mydata[workType][key]} onClicked={showContent} key={index + workType.length} />)
                 }
                 )}
             </div>
             <div className='switch'>
                 <div className="switch-button">
                     <input className="switch-button-checkbox" type="checkbox" onClick={changeWorkType}></input>
-                    <label className="switch-button-label" for=""><span className="switch-button-label-span">Work</span></label>
+                    <label className="switch-button-label"><span className="switch-button-label-span">Work</span></label>
                 </div>
             </div>
-        </div >
+        </section >
     );
 };
 
