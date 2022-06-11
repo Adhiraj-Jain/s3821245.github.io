@@ -1,13 +1,12 @@
 import React from 'react';
-import EachSkill from './EachSkill';
 
 const EachSkillSection = (props) => {
     return (
-        <div className="col-md-5">
+        <div key={props.keyNumber} className="col-md-5" >
             <span className="skill-tagline">{props.name}</span>
             <div className="skills">
-                {Object.keys(props.skills).map(key => {
-                    return (<div className="skillname">{key}</div>)
+                {Object.keys(props.skills).map((key, index) => {
+                    return (<div className="skillname" key={index}>{key}</div>)
                 }
                 )}
             </div>
@@ -16,5 +15,3 @@ const EachSkillSection = (props) => {
 };
 
 export default EachSkillSection;
-
-{/* <EachSkill skillName={key} value={props.skills[key]} /> */ }
