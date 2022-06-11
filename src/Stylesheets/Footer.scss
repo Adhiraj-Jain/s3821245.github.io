@@ -1,0 +1,77 @@
+@keyframes makeTextAppear {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    75% {
+        opacity: 75%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+#footer {
+    width: 100%;
+    min-height: 3.5rem;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding-bottom: 0.3rem;
+
+    ul {
+        background-color: transparent;
+        padding-top: 0.3rem;
+        padding-bottom: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem 0rem;
+    }
+
+    ul li {
+        margin: 1rem;
+        list-style-type: none;
+    }
+
+    ul li a {
+        min-height: 4rem;
+        line-height: 3rem;
+        font-size: 1rem;
+        border: 2px solid rgba(198, 201, 216, .75);
+        border-radius: 50%;
+        text-align: center;
+        color: white;
+        transition: all .2s cubic-bezier(.645, .045, .355, 1);
+        animation: 2s ease-out 0s 1 makeTextAppear;
+        padding: 0.5rem 0.8rem;
+    }
+
+    ul li a:hover {
+        background-color: #616161;
+        border: 2px solid #616161;
+        font-size: 1.4rem;
+        line-height: 1.9em;
+    }
+
+    .copyright-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+}
