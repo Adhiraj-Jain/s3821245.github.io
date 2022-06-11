@@ -1,16 +1,15 @@
 import React from 'react';
 import ParticleBackground from '../../ParticleBackground';
 import "../../Stylesheets/Header.css";
-import NavBar from './NavBar';
 import TextAnimation from '../About/TextAnimation';
 
-const Header = () => {
+const Header = ({ pageWidth, pageHeight }) => {
     return (
-        <div className="Header particles-js">
-            <ParticleBackground />
-            {/* <NavBar /> */}
+        <section id="home" className="Header particles-js">
             <TextAnimation />
-        </div>
+            {pageWidth > 1024 && (<ParticleBackground />)}
+
+        </section>
     );
 };
 
