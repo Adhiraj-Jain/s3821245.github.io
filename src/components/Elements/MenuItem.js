@@ -2,8 +2,8 @@ import React from "react";
 
 const MenuItem = (props) => {
     return (
-        <li class="nav-item">
-            <a class="nav-link text mx-3 text-white pb-3" aria-current="page" href={props.href}>{props.text}</a>
+        <li className="nav-item">
+            <a className="nav-link text" aria-current="page" href={props.href}>{props.text}</a>
         </li>
     );
 }
