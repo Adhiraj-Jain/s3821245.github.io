@@ -3,7 +3,10 @@
         "name": "Adhiraj Jain",
         "profession": "Software Developer",
         "picture": "",
-        "aboutme": "Hi, My name is Adhiraj Jain and I am a software Developer"
+        "aboutme": [
+            "Born in Delhi, India, living in Melbourne.",
+            "I’m a young and motivated software developer who has a passion to do a lot of things in his life whether it is fashion photography, music production or developing software’s. Since the age of 15, winning awards whether it was an international award or winning inter-school competitions, has motivated me and pushed me to achieve greater milestones in life. I don’t know where I will be standing in the next few years but one thing is sure that every single day, I am gonna wake up with an aspiration to achieve my goals and dreams, so are you ready to be a part of that journey?"
+        ]
     },
     "profiles": [
         {
@@ -19,12 +22,35 @@
             "icon": "fab fa-2x fa-github"
         }
     ],
+    "volunteer": [
+        {
+            "company": "HackMelbourne",
+            "position": "Student Engangement Officer",
+            "year": "January, 2022 - Current",
+            "summary": "To organise various events for HackMelbourne, create and implement strategies to increase student engangement.",
+            "location": "Melbourne, Victoria, Australia"
+        },
+        {
+            "company": "RMIT University",
+            "position": "Peer Mentor",
+            "year": "March, 2022 - June, 2022",
+            "summary": "To assist other students who need help in courses. Empower and guide them to find answers for themselves.",
+            "location": "Melbourne, Victoria, Australia"
+        },
+        {
+            "company": "Club Hash",
+            "position": "President",
+            "year": "April, 2018 - March, 2019",
+            "summary": "Managing and organizing Tech-based inter- school competition events. Leading a team of professionals from various departments such as financial, logistics, developers etc.",
+            "location": "Delhi, India"
+        }
+    ],
     "work": [
         {
             "company": "Uniware Pty. Ltd.",
             "position": "Software Developer",
             "year": "January, 2022 - Current",
-            "summary": "Solving 300+ doubts monthly based on Data Structures and Algorithms and evaluation of projects.",
+            "summary": "Developing and refactoring company's software applications in C#. Refactoring python APIs and working on JBASE Database systems. Developing applications of Uniware's subsidiary companies.",
             "location": "Melbourne, Victoria, Australia"
         },
         {
@@ -32,13 +58,6 @@
             "position": "Teaching Assistant",
             "year": "December, 2020 - April, 2021",
             "summary": "Solving 300+ doubts monthly based on Data Structures and Algorithms and evaluation of projects.",
-            "location": "Delhi, India"
-        },
-        {
-            "company": "Club Hash",
-            "position": "President",
-            "year": "April, 2018 - March, 2019",
-            "summary": "Managing and organizing Tech-based inter- school competition events. Leading a team of professionals from various departments such as financial, logistics, developers etc.",
             "location": "Delhi, India"
         }
     ],
@@ -101,7 +120,8 @@
             "C++": 3,
             "Java": 3,
             "Python": 3,
-            "Ruby": 3
+            "Ruby": 3,
+            "C#": 2
         },
         "Cloud and Databases": {
             "AWS": 3,
@@ -112,60 +132,124 @@
         },
         "Integrated Development Environments (IDE's)": {
             "Visual Studio Code": 4,
-            "Eclipse": 3,
-            "Jupyter Notebook": 4,
             "IntelliJ": 4,
-            "Github": 4
+            "Github": 4,
+            "Jupyter Notebook": 4,
+            "Eclipse": 3,
+            "Visual Studio": 3,
+            "GitLab": 2
         }
     },
     "projects": {
         "Bookeroo E-commerce Web App": {
             "img": "/Bookeroo E-commerce Web App.jpeg",
-            "summary": "Followed and experienced Test Driven Development and agile style of development. Integrated PayPal API for checkout. Implemented Advanced UI Patterns.",
+            "summary": [
+                "Bookeroo, a full stack web application to provide online book selling and sharing services for their users. It was implemented using frameworks such as SpringBoot for Backend application part and React for Frontend application part, the communication was done using RESTFUL APIs.",
+                " Test Driven Development and agile methodologies were used to develop this application. For secure and faster checkouts, a PayPal API payment system was integrated into the system. To make sure all tests run successfully and application is tested at every stage of development, a CI/CD was introduced with the help of platform called CircleCI, the work of this service is to run tests and install dependencies before deploying the application. This platform is built using advanced UI Patterns to make sure it is user-friendly."
+            ],
             "month": "October 2021",
-            "tools": "React, Spring boot, AWS Amplify, AWS Beanstalk, CircleCI (CI/CD), GitHub, Docker.",
             "aim": "Aim of this project is to make an ecommerce web application for books.",
-            "link": "https://github.com/Adhiraj-Jain/Bookeroo-Ecommerce-Web-App"
+            "link": "https://github.com/Adhiraj-Jain/Bookeroo-Ecommerce-Web-App",
+            "Languages Used": [
+                "React",
+                "JavaScript",
+                "Java"
+            ],
+            "Tools Used": [
+                "Visual Studio Code",
+                "Spring Boot",
+                "AWS Amplify",
+                "AWS Beanstalk",
+                "CircleCI (CI/CD)",
+                "IntellIJ",
+                "GitHub",
+                "Docker"
+            ]
         },
         "Qwirkle: A Board Game": {
             "img": "/Qwirkle- A Board Game.jpeg",
-            "summary": "Implemented complex software algorithms with immense use of Data Structures and algorithms. Implemented test cases to ensure game works fine in normal and edge case scenarios. Used various software design and development strategies.",
+            "summary": [
+                "A multi-player text based version of board game called Qwirkle. It was developed in C++ using complex software algorithms with immense use of Data Structures and algorithms such as pointers, Linked Lists, File handling etc. This program also handles Dynamic memory management it make it more efficient.",
+                " Before the development of this game, various different kind of test cases were made to ensure game works fine in normal and edge case scenarios. Various software designs and development strategies have been used."
+            ],
             "month": "May 2021",
-            "tools": "C++",
             "aim": "Implemented a multiple player board game using Object Oriented programming.",
-            "link": "https://github.com/Adhiraj-Jain/Qwirkle-A-Board-Game"
+            "link": "https://github.com/Adhiraj-Jain/Qwirkle-A-Board-Game",
+            "Languages Used": [
+                "C++"
+            ],
+            "Tools Used": [
+                "Visual Studio Code"
+            ]
         },
         "E-commerce Web Application": {
             "img": "/E-commerce Web Application.jpeg",
-            "summary": "Developed a full stack web application using agile style of methodologies. Integrated SendGrid emailing system into the application for various emailing functionalities.",
+            "summary": [
+                "A full stack web application developed using agile style of methodologies. Some interesting features about this application which I would like to highglight are, an user can login with twitter account, a newsletter subscription which is integrated using SendGrid emailing system which sends out an email to the subscribed email address.",
+                " As it as an e-commerce website, it also has capabilities of dynamically changing the application view results based on popularity of items, filters, sorting etc. "
+            ],
             "month": "May 2021",
             "tools": "Ruby on Rails, AWS cloud9 IDE, Heroku",
-            "aim": "The aim of this project is to make an e-commerce web application.",
-            "link": "https://github.com/Adhiraj-Jain/Ecommerce-Web-Application"
+            "aim": "The objective of this project was to develop high level web development skills including task analysis, fast development, testing and team collaboration. ",
+            "link": "https://github.com/Adhiraj-Jain/Ecommerce-Web-Application",
+            "Languages Used": [
+                "Ruby"
+            ],
+            "Tools Used": [
+                "AWS Cloud 9",
+                "Visual Studio Code"
+            ]
         },
         "Black Jack: A Card Game": {
             "img": "/Black Jack- A Card Game.jpeg",
-            "summary": "It has been built with extensive use of skills such as Data structures, AWT/Swing.",
+            "summary": [
+                "A multi-player game with a house, popularly known as Black Jack. It's a casino style card game that is loosely based on Black Jack but is for the gambler in a hurry that doesn't want to think too hard and wants to trust in luck alone without having to worry about statistics! ",
+                "The graphical user interface of this application has been developed using Java libraries, AWT/Swing and follows MVC structure. The engine of this application has been built with extensive use of skills such as Data structures and algorithms for example, Linked Lists, random card extracting etc."
+            ],
             "month": "November 2020",
             "tools": "Java, Eclipse",
             "aim": "Purpose of this project is to build a black jack game engine and its AWT/Swing Graphical user Interface.",
-            "link": "https://github.com/Adhiraj-Jain/Black-Jack-Game"
+            "link": "https://github.com/Adhiraj-Jain/Black-Jack-Game",
+            "Languages Used": [
+                "Java"
+            ],
+            "Tools Used": [
+                "Eclipse"
+            ]
         },
         "Instagram Bot": {
             "img": "/Instagram Bot.png",
-            "summary": "The bot can extract information about someone's profile including followers, post information etc. The bot can search over the website, can like or comment someone's post. It can also see a user’s story. It can find profiles with top followers and can Follow/Unfollow a user. Mathematical operations performed like finding mean, median etc.",
+            "summary": [
+                "The bot can extract information about someone's profile including followers, posts information etc. The bot can also search over the website, can like or comment someone's post. It can also see a user’s story. It can find profiles with top followers and can Follow/Unfollow a user. Mathematical operations performed like finding mean, median etc."
+            ],
             "month": "December 2019",
             "tools": "Beautiful Soup, Selenium, NumPy and pandas.",
             "aim": "Purpose of project is to scrap data from Instagram web using algorithms.",
-            "link": "https://github.com/Adhiraj-Jain/Instagram-Bot"
+            "link": "https://github.com/Adhiraj-Jain/Instagram-Bot",
+            "Languages Used": [
+                "Python"
+            ],
+            "Tools Used": [
+                "Jupyter Notebook",
+                "Selenium",
+                "PyCharts"
+            ]
         },
         "FitBuddy: A Fitness Application": {
             "img": "/FitBuddy- A Fitness Application.png",
-            "summary": "Built this prototype as an assignment work during course program. Different User Interface patterns have been taken into consideration to make it more effective and interactive.",
+            "summary": [
+                "A fitness application prototype, built as a part of an assignment work during course program. Its has various pages and sections such as login, signup, homepage, filters, search page etc.",
+                "Different User Interface patterns have been taken into consideration to make it more user effective and interactive."
+            ],
             "month": "June 2020",
             "tools": "Figma, publicly available online assets.",
             "aim": "Purpose of this project is to build a prototype of a fitness application which show users what exercises to do and explain exactly how to do them.",
-            "link": "https://www.figma.com/proto/wJqV2XQS7tCcjsBNr8K8Py/FInal-FitBuddy?%20node-%20id=1%3A5308&scaling=scale-down&node-id=1%3A5269"
+            "link": "https://www.figma.com/proto/wJqV2XQS7tCcjsBNr8K8Py/FInal-FitBuddy?%20node-%20id=1%3A5308&scaling=scale-down&node-id=1%3A5269",
+            "Languages Used": [],
+            "Tools Used": [
+                "Figma"
+            ],
+            "buttonName": "Visit Prototype"
         }
     }
 }
