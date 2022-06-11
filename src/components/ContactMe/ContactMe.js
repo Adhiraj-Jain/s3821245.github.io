@@ -4,7 +4,7 @@ import ContactForm from './ContactForm';
 
 const ContactMe = () => {
     return (
-        <div id="contactme" className="contactme">
+        <section id="contactme">
             <div className="shape">
                 <img className="svg" src="paper.svg" alt="tear paper"></img>
             </div>
@@ -32,7 +32,7 @@ const ContactMe = () => {
                     <ContactForm />
                 </div>
             </div>
-        </div >
+        </section>
     );
 };
 
