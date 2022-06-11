@@ -21,10 +21,10 @@ const ResumeBar = () => {
     const navBarClassName = 'resumeContainer' + (navBar ? ' scroll' : '');
     return (
         <section className={navBarClassName}>
-            <a className="resume-brand text" href="#">{Resume.about.name}</a>
+            <a className="resume-brand text" href="">{Resume.about.name}</a>
             <ul className="resume-ul">
                 <li className="">
-                    <a className="text" onClick={() => window.open("https://drive.google.com/file/d/1J6Ceo0InAXNVI1y1waFTaIvGY62Enjfq/view?usp=sharing", "_blank")} aria-current="page" href="#">Resume</a>
+                    <a className="text" onClick={() => window.open("https://drive.google.com/file/d/1J6Ceo0InAXNVI1y1waFTaIvGY62Enjfq/view?usp=sharing", "_blank")} aria-current="page" href="">Resume</a>
                 </li>
             </ul>
         </section>
