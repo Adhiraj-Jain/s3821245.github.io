@@ -6,10 +6,9 @@ const Education = () => {
     const educationData = mydata["education"]
     return (
         <div>
-            {/* <p>{educationData[0]["degree"]}</p> */}
-            {Object.keys(educationData).map(key => {
-                return (<div className="my-3">
-                    <span key={key} className="d-block">
+            {Object.keys(educationData).map((key, index) => {
+                return (<div className="my-3" key={index}>
+                    <span className="d-block">
                         <span className="degree">{educationData[key]["degree"]}</span>
                         <span className='dash'>-</span>
                         <span className="institution">{educationData[key]["institution"]}</span>
