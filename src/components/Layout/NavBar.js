@@ -1,16 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 import MenuItem from '../Elements/MenuItem';
-import Resume from '../../resume.json';
-import '../../Stylesheets/NavBar.css';
+import '../../Stylesheets/NavBar.scss';
 
 const handleMenuClick = (e) => {
     const currentState = this.state.showMenu;
     this.setState({ showMenu: !currentState });
 }
 
-const NavBar = () => {
+const NavBar = ({ pageHeight }) => {
+
     const [navBar, setNavBar] = useState(false);
+    const [scrollBarHeight, setScrollBarHeight] = useState(0);
+    const ref = useRef(null);
+
+    useEffect(() => {
+        if (ref.current !== null) {
+            setScrollBarHeight(ref.current.clientHeight);
+        }
+    }, []);
+    const [scrollPosition, setScrollPosition] = useState(0);
+    const handleScroll = () => {
+        const position = window.pageYOffset;
+        setScrollPosition(position);
+    };
 
     const changeBackground = () => {
 
@@ -22,26 +35,24 @@ const NavBar = () => {
         }
     }
 
-    window.addEventListener('scroll', changeBackground)
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll, { passive: true });
 
-    const navBarClassName = 'navbarContainer container-fluid pt-0 mx-4' + (navBar ? ' scroll' : '');
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
-        <nav className='navbar fixed-top navbar-expand-lg navbar-light py-0'>
-            <div className={navBarClassName}>
-                <a className="navbar-brand text p-4 text-white" href="#">{Resume.about.name}</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i className="fas fa-bars"></i>
-                </button>
-                <div className="d-lg-flex flex-row-reverse collapse navbar-collapse p-3" id="navbarNav">
-                    <ul className=" navbar-nav">
-                        <MenuItem text="About Me" href="#aboutMe" onClick={handleMenuClick} />
-                        <MenuItem text="Skills" href="#skills" onClick={handleMenuClick} />
-                        <MenuItem text="Experience" href="#experience" onClick={handleMenuClick} />
-                        <MenuItem text="Projects" href="#projects" onClick={handleMenuClick} />
-                        <MenuItem text="Contact" href="#contactme" onClick={handleMenuClick} />
-                    </ul>
-                </div>
-            </div>
+        <nav className='navbar'>
+            <ul className="navbar-nav" ref={ref} dir="rtl">
+                <MenuItem text="Home" href="#home" onClick={handleMenuClick} />
+                <MenuItem text="About Me" href="#aboutMe" onClick={handleMenuClick} />
+                <MenuItem text="Skills" href="#skills" onClick={handleMenuClick} />
+                <MenuItem text="Experience" href="#experience" onClick={handleMenuClick} />
+                <MenuItem text="Projects" href="#projects" onClick={handleMenuClick} />
+                <MenuItem text="Contact" href="#contactme" onClick={handleMenuClick} />
+            </ul>
         </nav>
     );
 };
