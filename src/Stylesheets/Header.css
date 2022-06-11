@@ -71,7 +71,6 @@
   display: inline-block;
   font-size: 3.5rem;
   font-weight: 700;
-  animation: 3s ease-out 0s 1 makeTextAppear;
 }
 
 @keyframes textAnimation {
