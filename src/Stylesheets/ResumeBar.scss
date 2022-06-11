@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@keyframes makeTextAppear {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    75% {
+        opacity: 75%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+section.resumeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    background-color: transparent;
+    z-index: 99999;
+    width: 100vw;
+    // margin: 0rem 0.2rem;
+    margin-top: 1rem;
+    align-items: center;
+    animation: 2s ease-out 0s 1 makeTextAppear;
+}
+
+.resumeContainer.scroll {
+    background-color: black;
+}
+
+/* nav.scrolled {
+    background-color: red;
+} */
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.resumeContainer a.resume-brand {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#resumeDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.resume-brand,
+li a {
+
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 0.9rem;
+    // font-family: "Poppins";
+}
+
+
+ul.resume-ul {
+    list-style-type: none;
+    margin-bottom: 0;
+
+    li {
+        background-color: #fff;
+        border-radius: 25px;
+        // transition: 0.3s;
+
+        a {
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+    }
+}
+
+ul.resume-ul li:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+ul.resume-ul li a:hover {
+    background-color: #F9004D;
+    background-image: linear-gradient(0.25turn, #F9004D, #e20148, #c7003f);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.resume-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 1.7rem;
+}
+
+@media screen and (max-device-height: 450px) and (max-device-width: 900px) {
+    ul.resume-ul {
+        li {
+            a {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .resume-brand {
+        font-family: 'Lobster', cursive;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+    ul.resume-ul {
+        li {
+            a {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .resume-brand {
+        font-size: 1.2rem;
+    }
+}
+
+section.resumeContainer {
+    overflow: hidden;
+}
