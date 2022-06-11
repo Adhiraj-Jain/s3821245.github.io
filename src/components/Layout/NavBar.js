@@ -3,6 +3,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import MenuItem from '../Elements/MenuItem';
 import '../../Stylesheets/NavBar.scss';
 
+/* eslint-disable */
+
 const handleMenuClick = (e) => {
     const currentState = this.state.showMenu;
     this.setState({ showMenu: !currentState });
