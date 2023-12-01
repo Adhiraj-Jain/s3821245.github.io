@@ -47,10 +47,17 @@
     ],
     "work": [
         {
-            "company": "Uniware Pty. Ltd.",
-            "position": "Software Developer",
-            "year": "January, 2022 - Current",
-            "summary": "Developing and refactoring company's software applications in C#. Refactoring python APIs and working on JBASE Database systems. Developing applications of Uniware's subsidiary companies.",
+            "company": "Paperless Warehousing",
+            "position": "Development Support Analyst",
+            "year": "February, 2023 - Current",
+            "summary": "Provide client support and advice, develop software, assisted in scoping and preparing development specifications, manage version control, helped with bug fixing and data correction, configured client systems, and managed software quality assurance testing.",
+            "location": "Melbourne, Victoria, Australia"
+        },
+        {
+            "company": "Uniware Pty. Ltd. & Paperless Warehousing",
+            "position": "Software Development Intern",
+            "year": "January, 2022 - February, 2023",
+            "summary": "Provide client support, transform existing SOAP interface with latest technology, create API testing application to support development work.",
             "location": "Melbourne, Victoria, Australia"
         },
         {
@@ -121,16 +128,18 @@
             "Java": 3,
             "Python": 3,
             "Ruby": 3,
-            "C#": 2
+            "C#": 2,
+            "JBASE": 2
         },
         "Cloud and Databases": {
             "AWS": 3,
             "Heroku": 3,
             "MySQL": 4,
             "DynamoDB": 4,
-            "PostgreSQL": 4
+            "PostgreSQL": 4,
+            "MultiValue Databases": 2
         },
-        "Integrated Development Environments (IDE's)": {
+        "Tools and Technologies": {
             "Visual Studio Code": 4,
             "IntelliJ": 4,
             "Github": 4,
@@ -141,6 +150,62 @@
         }
     },
     "projects": {
+        "Machine Learning for Whistle Detection for RoboCup SPL 2023": {
+            "img": "/Machine Learning for Whistle Detection for RoboCup SPL 2023.jpeg",
+            "summary": [
+                ""
+            ],
+            "month": "June 2023",
+            "aim": "Aim of this project is to make an autonomous robot that can explore an unknown environment, such as a partially collapsed building, and locate trapped or unconscious human victims of the disaster.",
+            "link": "",
+            "Languages Used": [
+                "Python",
+                "C++"
+            ],
+            "Tools Used": [
+                "Visual Studio Code",
+                "Softbank Nao V6 robot",
+                "TO DO"
+            ]
+        },
+        "ROS Navigation and Search Challenge": {
+            "img": "/ROS Navigation and Search Challenge.jpeg",
+            "summary": [
+                "The Search & Navigation Challenge is inspired by autonomous robotics for Urban Search and Rescue (USAR) and the RoboCup Rescue Robot League. In USAR after a disaster occurs, an autonomous robot can explore an unknown environment, such as a partially collapsed building, and locate trapped or unconscious human victims of the disaster. The robot builds a map as it explores and places markers in the map of where the victim’s locations. This map is given to First Responders who use it to go into the building and rescue the victims.",
+                "The ROSBot can explore an unknown location, locate a series of pre-defined objects, place the objects in the map, return the robot to it’s starting position while plotting the path the robot took on the map and make sure to complete the challenge as fast and as accurately as possible."
+            ],
+            "month": "April 2023",
+            "aim": "Aim of this project is to make an autonomous robot that can explore an unknown environment, such as a partially collapsed building, and locate trapped or unconscious human victims of the disaster.",
+            "link": "",
+            "Languages Used": [
+                "Python"
+            ],
+            "Tools Used": [
+                "Visual Studio Code",
+                "Rosbot Pro 2.0",
+                "TheConstruct ROS Development Studio",
+                "ROS packages"
+            ]
+        },
+        "Life Expecting of a device using Machine Learning": {
+            "img": "/Life Expecting of a device using Machine Learning.jpeg",
+            "summary": [
+                "",
+                ""
+            ],
+            "month": "April 2023",
+            "aim": "Aim of this project is to",
+            "link": "",
+            "Languages Used": [
+                "Python"
+            ],
+            "Tools Used": [
+                "Visual Studio Code",
+                "Jupyter Notebook",
+                "Tensorflow",
+                "Keras"
+            ]
+        },
         "Bookeroo E-commerce Web App": {
             "img": "/Bookeroo E-commerce Web App.jpeg",
             "summary": [
@@ -253,8 +318,8 @@
         }
     },
     "imageData": {
-        "FASHION": 22,
-        "WEDDING_BRIDAL": 0,
-        "EVENTS": 0
+        "FASHION": 23,
+        "WEDDING_BRIDAL": 16,
+        "EVENTS": 47
     }
 }
