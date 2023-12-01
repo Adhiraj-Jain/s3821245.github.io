@@ -11,6 +11,7 @@ import Footer from './components/Layout/Footer';
 import NavBar from './components/Layout/NavBar';
 import Popup from './components/Projects/Popup';
 import ResumeBar from './components/ResumeBar/ResumeBar';
+import Gallery from './components/Gallery/index.tsx';
 
 const App = () => {
   const [showModal, setShowModal] = useState(false);
@@ -29,9 +30,7 @@ const App = () => {
       setPageWidth(window.innerWidth);
     }
   }, []);
-
   const openModal = (project) => {
-    console.log(project.value);
     setProjectDetails(project)
     setShowModal(prev => !prev);
   };
@@ -46,6 +45,7 @@ const App = () => {
         <Skills />
         <Experience />
         <Projects openModal={openModal} />
+        <Gallery />
         <Quote />
         <ContactMe />
         <Footer />

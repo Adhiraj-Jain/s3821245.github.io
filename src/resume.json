@@ -251,5 +251,10 @@
             ],
             "buttonName": "Visit Prototype"
         }
+    },
+    "imageData": {
+        "FASHION": 22,
+        "WEDDING_BRIDAL": 0,
+        "EVENTS": 0
     }
 }
