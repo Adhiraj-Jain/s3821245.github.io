@@ -42,20 +42,21 @@ const Gallery: React.FC<FuncProps> = (props) => {
 
     useEffect(() => {
         fetchImages();
-    }, []);
+    }, [portfolioType]);
 
     const fetchImages = (count = 10) => {
         if (imageData[portfolioType] <= 0) {
-            setImages([]);
-            setHasMore(false);
+            // setImages([]);
+            // setHasMore(false);
             return;
         }
 
-        if (images.length + count > imageData[portfolioType]) {
-            setHasMore(false);
-            return;
+        if (images.length >= imageData[portfolioType] || images.length + count >= imageData[portfolioType]) {
+            setImages(_.concat(_.range(0, imageData[portfolioType] + 1)));
+            // setHasMore(false);
+        } else {
+            setImages(_.concat(images, _.range(images.length, images.length + count)));
         }
-        setImages(_.concat(images, _.range(images.length, images.length + count)));
         setIsLoaded(true);
         console.log(images);
     };
@@ -91,14 +92,14 @@ const Gallery: React.FC<FuncProps> = (props) => {
                     className={styles.toggleButtonGroup}
                 >
                     <ToggleButton value="FASHION" className={styles.toggleButton}>FASHION</ToggleButton>
-                    <ToggleButton value="WEDDING_BRIDAL" className={styles.toggleButton}>WEDDING/BRIDAL</ToggleButton>
+                    <ToggleButton value="WEDDING_BRIDAL" className={styles.toggleButton}>WEDDING / BRIDAL</ToggleButton>
                     <ToggleButton value="EVENTS" className={styles.toggleButton}>EVENTS</ToggleButton>
                 </ToggleButtonGroup>
             </ThemeProvider>
             <div className={styles.container}>
                 <InfiniteScroll
                     dataLength={images.length}
-                    next={() => fetchImages(5)}
+                    next={() => fetchImages(10)}
                     hasMore={hasMore}
                 >
                     {imageData[portfolioType] > 0 && <div className={styles.image_grid} style={{ marginTop: "30px" }}>
