@@ -10,9 +10,9 @@ import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 
-const UnsplashImage = ({ url, key }) => (
+const UnsplashImage = ({ portfolioType, url, key }) => (
     <div className={styles.image_item} key={key} >
-        <img src={"FASHION/" + url + ".jpg"} />
+        <img src={portfolioType + "/" + url + ".jpg"} />
     </div>
 );
 
@@ -45,7 +45,12 @@ const Gallery: React.FC<FuncProps> = (props) => {
     }, []);
 
     const fetchImages = (count = 10) => {
-        // setImages([...images, ...res.data]);
+        if (imageData[portfolioType] <= 0) {
+            setImages([]);
+            setHasMore(false);
+            return;
+        }
+
         if (images.length + count > imageData[portfolioType]) {
             setHasMore(false);
             return;
@@ -69,8 +74,6 @@ const Gallery: React.FC<FuncProps> = (props) => {
         newPortfolioType: string,
     ) => {
         setportfolioType(newPortfolioType);
-        // setImages(_.concat(images, _.range(images.length, images.length + count)));
-        // setIsLoaded(true);
     };
 
     return (
@@ -98,16 +101,17 @@ const Gallery: React.FC<FuncProps> = (props) => {
                     next={() => fetchImages(5)}
                     hasMore={hasMore}
                 >
-                    <div className={styles.image_grid} style={{ marginTop: "30px" }}>
+                    {imageData[portfolioType] > 0 && <div className={styles.image_grid} style={{ marginTop: "30px" }}>
                         {loaded
                             ? images.map((image, index) => (
                                 <UnsplashImage
+                                    portfolioType={portfolioType}
                                     url={image}
                                     key={index}
                                 />
                             ))
                             : ""}
-                    </div>
+                    </div>}
                 </InfiniteScroll>
             </div>
         </section>
