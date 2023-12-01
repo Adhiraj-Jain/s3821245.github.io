@@ -44,7 +44,7 @@ const Gallery: React.FC<FuncProps> = (props) => {
                 <span className="section-headings">Projects</span>
             </div>
             <div className="">
-                <div className="hero-body">
+                <div className="">
                     <div className={styles.container}>
                         <InfiniteScroll
                             dataLength={images.length}
