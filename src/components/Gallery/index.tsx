@@ -16,6 +16,7 @@ import styles from "./Gallery.module.scss";
 
 import _ from 'lodash';
 
+const DEFAULT_IMAGES = 5
 
 const useStyles = makeStyles({
     toggleButtonGroup: {
@@ -69,10 +70,14 @@ const Gallery: React.FC<FuncProps> = (props) => {
     const [hasMore, setHasMore] = useState(true);
     const [portfolioType, setportfolioType] = useState("FASHION");
     const [modalSrc, setModalSrc] = useState<string | null>(null);
+    const [showButton, setButton] = useState(false);
     const classes = useStyles();
 
     useEffect(() => {
-        fetchImages();
+        // fetchImages();
+        !showButton && images.length < DEFAULT_IMAGES && checkImageData()
+        showButton && checkImageData()
+
         const handleEsc = (event) => {
             if (event.keyCode === 27) closeModal();
         };
@@ -92,13 +97,20 @@ const Gallery: React.FC<FuncProps> = (props) => {
         setModalSrc(null);
     };
 
-    const fetchImages = (count = 10) => {
+    const fetchImages = (count) => {
+
+        if (!showButton) {
+            setHasMore(false);
+            return;
+        } else {
+            checkImageData(count);
+        }
+    };
+
+    const checkImageData = (count = 5) => {
         if (imageData[portfolioType] <= 0) {
-            // setImages([]);
-            // setHasMore(false);
             return;
         }
-
         if (images.length >= imageData[portfolioType] || images.length + count >= imageData[portfolioType]) {
             setImages(_.concat(_.range(0, imageData[portfolioType] + 1)));
             setHasMore(false);
@@ -107,8 +119,7 @@ const Gallery: React.FC<FuncProps> = (props) => {
             setHasMore(true);
         }
         setIsLoaded(true);
-        console.log(images);
-    };
+    }
 
     const handleChange = (
         event: React.MouseEvent<HTMLElement>,
@@ -142,8 +153,8 @@ const Gallery: React.FC<FuncProps> = (props) => {
             <div className={styles.container}>
                 <InfiniteScroll
                     dataLength={images.length}
-                    next={() => fetchImages(10)}
-                    hasMore={hasMore}
+                    next={() => { fetchImages(10) }}
+                    hasMore={showButton ? hasMore : false}
                     loader={<Box sx={{ width: '100%' }}>
                         <LinearProgress />
                     </Box>}
@@ -158,8 +169,18 @@ const Gallery: React.FC<FuncProps> = (props) => {
                                 />
                             ))
                             : ""}
+                        {!showButton && (
+                            <button
+                                onClick={() => { setButton(true); checkImageData(imageData[portfolioType]); }}
+                                className={styles.showButton}
+                            >
+                                Load more
+                            </button>
+                        )
+                        }
                     </div>}
                 </InfiniteScroll>
+
             </div>
             {modalSrc && (
                 <div
@@ -176,7 +197,7 @@ const Gallery: React.FC<FuncProps> = (props) => {
                     }}
                 />
             )}
-        </section>
+        </section >
 
 
     );
