@@ -28,7 +28,6 @@ const Experience = () => {
         else {
             setWorkType("work")
         }
-        console.log(workType);
     }
 
     useEffect(changeButton, [])
