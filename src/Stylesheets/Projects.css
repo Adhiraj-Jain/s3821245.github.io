@@ -95,3 +95,15 @@
     padding: 9px 20px;
     background-color: #f9004d;
 }
+
+.toggleButtonGroup {
+    display: flex !important;
+    justify-content: space-around !important;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.toggleButton {
+    color: white;
+}

@@ -47,16 +47,16 @@ const Popup = ({ trigger, setShowModal, projectDetails }) => {
                                     </div>
                                     <p className='aim'>{projectDetails.project['aim']}</p>
                                     {projectDetails.project['summary'].map((text, index) => {
-                                        return (<p className='summary'>{text}</p>)
+                                        return (<p key={index} className='summary'>{text}</p>)
                                     })}
                                     {projectDetails.project['Languages Used'].length > 0 && <p className='elements-used'>
                                         <span className="element-title" >Languages Used:</span>
                                         {projectDetails.project['Languages Used'].map((text, index) => {
                                             if (projectDetails.project['Languages Used'].length - 1 === index) {
-                                                return (<span className='individual-element'>{text}</span>)
+                                                return (<span key={index} className='individual-element'>{text}</span>)
                                             }
                                             else {
-                                                return (<span className='individual-element'>{text},</span>)
+                                                return (<span key={index} className='individual-element'>{text},</span>)
                                             }
 
                                         })}
@@ -65,10 +65,10 @@ const Popup = ({ trigger, setShowModal, projectDetails }) => {
                                         <span className="element-title" >Tools Used:</span>
                                         {projectDetails.project['Tools Used'].map((text, index) => {
                                             if (projectDetails.project['Tools Used'].length - 1 === index) {
-                                                return (<span className='individual-element'>{text}</span>)
+                                                return (<span key={index} className='individual-element'>{text}</span>)
                                             }
                                             else {
-                                                return (<span className='individual-element'>{text},</span>)
+                                                return (<span key={index} className='individual-element'>{text},</span>)
                                             }
 
                                         })}

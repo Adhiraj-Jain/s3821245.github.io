@@ -21,10 +21,9 @@ const DEFAULT_IMAGES = 5
 const useStyles = makeStyles({
     toggleButtonGroup: {
         '& .MuiToggleButtonGroup-grouped': {
-            color: '#fff', // Replace with your color
+            color: '#fff',
         },
         '& .MuiToggleButtonGroup-grouped.Mui-selected': {
-            // backgroundColor: 'none', // Replace with your color
             color: '#f44336'
         },
     },
@@ -138,7 +137,6 @@ const Gallery: React.FC<FuncProps> = (props) => {
             </div>
             <ThemeProvider theme={theme}>
                 <ToggleButtonGroup
-                    // color="toggleBtnGroup"
                     value={portfolioType}
                     exclusive
                     onChange={handleChange}
