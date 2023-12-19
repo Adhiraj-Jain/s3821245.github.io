@@ -6,12 +6,12 @@ const certification = () => {
     const certificationData = mydata["certification"]
     return (
         <div className='certification'>
-            {Object.keys(certificationData).map(key => {
-                return (<div className="my-3">
-                    <span key={key} className="d-block">
-                        <span className="degree">{certificationData[key]["name"]}</span>
-                        <span className='dash'>-</span>
-                        <span className="institution">{certificationData[key]["institution"]}</span>
+            {Object.keys(certificationData).map((key, index) => {
+                return (<div key={index} className="my-3">
+                    <span className="d-block">
+                        <div className="institution">{certificationData[key]["institution"]}</div>
+                        <div className="degree">{certificationData[key]["name"]}</div>
+                        {/* <span className='dash'>-</span> */}
                     </span>
                     <span key={key} className="d-block year">
                         {certificationData[key]["year"]}

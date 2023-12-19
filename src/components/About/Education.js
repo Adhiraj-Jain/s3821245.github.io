@@ -9,9 +9,9 @@ const Education = () => {
             {Object.keys(educationData).map((key, index) => {
                 return (<div className="my-3" key={index}>
                     <span className="d-block">
-                        <span className="degree">{educationData[key]["degree"]}</span>
-                        <span className='dash'>-</span>
-                        <span className="institution">{educationData[key]["institution"]}</span>
+                        <div className="institution">{educationData[key]["institution"]}</div>
+                        <div className="degree">{educationData[key]["degree"]}</div>
+                        {/* <span className='dash'>-</span> */}
                     </span>
                     <span key={key} className="d-block year">
                         {educationData[key]["year"]}

@@ -1,17 +1,16 @@
-div span.degree {
+div div.degree {
     color: rgb(235, 235, 235);
     letter-spacing: 0.3px;
     font-weight: 600;
     font-family: 'Poppins';
-    padding-right: 5px;
 }
 
-div span.institution {
+div div.institution {
     color: rgb(235, 235, 235);
     font-weight: 200;
     letter-spacing: 0.5px;
     font-family: 'Poppins';
-    padding-left: 5px;
+    text-transform: uppercase;
 }
 
 div span.year {

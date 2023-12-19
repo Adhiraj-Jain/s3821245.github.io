@@ -11,6 +11,7 @@ section.aboutme {
 .about-pic-col {
     text-align: center;
     padding-right: 0px;
+    position: relative;
 }
 
 img {
@@ -21,7 +22,6 @@ img {
 .about-row {
     margin-left: 3rem;
     margin-right: 3rem;
-    display: flex;
 }
 
 .about-text-col {
@@ -46,7 +46,6 @@ h3.about-heading {
 }
 
 p.about-para {
-    /* color: #767676; */
     color: #d5d5d5;
     font-size: 1.1rem;
     line-height: 2rem;
@@ -137,7 +136,7 @@ ul.about-ul li.active button {
     }
 }
 
-@media screen and (max-device-width: 900px) {
+@media (max-width: 850px) {
     .about-pic-col {
         display: none;
     }

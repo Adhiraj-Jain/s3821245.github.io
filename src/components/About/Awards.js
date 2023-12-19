@@ -6,11 +6,11 @@ const awards = () => {
     const awardsData = mydata["awards"]
     return (
         <div>
-            {Object.keys(awardsData).map(key => {
-                return (<div className="my-3">
-                    <span key={key} className="d-block">
-                        <span className="degree">{awardsData[key]["name"]}</span>
-                        <span className="d-block institution ps-0">Organised By - {awardsData[key]["institution"]}</span>
+            {Object.keys(awardsData).map((key, index) => {
+                return (<div key={index} className="my-3">
+                    <span className="d-block">
+                        <div className="degree">{awardsData[key]["name"]}</div>
+                        <div className="d-block institution ps-0">{awardsData[key]["institution"]}</div>
                     </span>
                     <span key={key} className="d-block year">
                         {awardsData[key]["year"]}
