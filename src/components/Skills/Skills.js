@@ -17,7 +17,7 @@ const Skills = () => {
                 <div className="row mt-3">
                     <EachSkillSection keyNumber={2} name="Cloud and Databases" skills={skills["Cloud and Databases"]} />
                     <div className="col-md-2"></div>
-                    <EachSkillSection keyNumber={3} name="Integrated Development Environments (IDE's)" skills={skills["Integrated Development Environments (IDE's)"]} />
+                    <EachSkillSection keyNumber={3} name="Tools and Technologies" skills={skills["Tools and Technologies"]} />
                 </div>
             </div>
         </section>

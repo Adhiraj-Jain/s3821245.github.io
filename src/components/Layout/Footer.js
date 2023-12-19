@@ -15,7 +15,7 @@ const Footer = () => {
                     <a href="https://twitter.com/adhirajjain09"><i className="fab fa-twitter"></i></a>
                 </li>
             </ul>
-            <span className="copyright-div">© 2022 by Adhiraj Jain</span>
+            <span className="copyright-div">© 2023 by Adhiraj Jain</span>
             <span className="copyright-div">All product names, images, logos, and brands are property of their respective owners</span>
         </footer>
 

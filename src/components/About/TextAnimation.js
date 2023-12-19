@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useEffect } from 'react';
 
 const words = [
-    'Software Engineer', 'Web developer', 'Freelancer'
+    'Software Engineer', 'Freelance Photographer'
 ]
 
 const TextAnimation = () => {
@@ -15,7 +15,7 @@ const TextAnimation = () => {
     }, []);
 
     useEffect(() => {
-        const intervalID = setInterval(shuffle, 3000);
+        const intervalID = setInterval(shuffle, 3005);
         return () => clearInterval(intervalID);
     }, [shuffle]);
 
