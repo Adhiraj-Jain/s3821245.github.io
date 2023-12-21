@@ -1,23 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c6efc6c.chunk.css",
-    "main.js": "/static/js/main.0552e4e3.chunk.js",
-    "main.js.map": "/static/js/main.0552e4e3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.83f50b25.js",
-    "runtime-main.js.map": "/static/js/runtime-main.83f50b25.js.map",
-    "static/js/2.69dcdb8a.chunk.js": "/static/js/2.69dcdb8a.chunk.js",
-    "static/js/2.69dcdb8a.chunk.js.map": "/static/js/2.69dcdb8a.chunk.js.map",
+    "main.css": "/static/css/main.7e75c5d5.css",
+    "main.js": "/static/js/main.31772303.js",
+    "static/media/Adhiraj Jain - Resume.pdf": "/static/media/Adhiraj Jain - Resume.aa8d2c6f6c6f58efa560.pdf",
+    "static/media/contactme2.jpeg": "/static/media/contactme2.9fc4f0ba8d795532a4a8.jpeg",
+    "static/media/me.jpg": "/static/media/me.0ef99ae1cb6c02122189.jpg",
+    "static/media/project_bg.jpeg": "/static/media/project_bg.691c3b3e1f9d86b34e4c.jpeg",
     "index.html": "/index.html",
-    "static/css/main.4c6efc6c.chunk.css.map": "/static/css/main.4c6efc6c.chunk.css.map",
-    "static/js/2.69dcdb8a.chunk.js.LICENSE.txt": "/static/js/2.69dcdb8a.chunk.js.LICENSE.txt",
-    "static/media/ContactMe.css": "/static/media/contactme2.9fc4f0ba.jpeg",
-    "static/media/Header.css": "/static/media/me.0ef99ae1.jpg",
-    "static/media/Projects.css": "/static/media/project_bg.691c3b3e.jpeg"
+    "main.7e75c5d5.css.map": "/static/css/main.7e75c5d5.css.map",
+    "main.31772303.js.map": "/static/js/main.31772303.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.83f50b25.js",
-    "static/js/2.69dcdb8a.chunk.js",
-    "static/css/main.4c6efc6c.chunk.css",
-    "static/js/main.0552e4e3.chunk.js"
+    "static/css/main.7e75c5d5.css",
+    "static/js/main.31772303.js"
   ]
 }
