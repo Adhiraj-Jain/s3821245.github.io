@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Resume from '../../resume.json';
 import '../../Stylesheets/ResumeBar.scss';
 
+import resumePDF from './Adhiraj Jain - Resume.pdf';
+
 /* eslint-disable */
 const ResumeBar = () => {
     const [navBar, setNavBar] = useState(false);
@@ -24,7 +26,9 @@ const ResumeBar = () => {
             <a className="resume-brand text" href="">{Resume.about.name}</a>
             <ul className="resume-ul">
                 <li className="">
-                    <a className="text" onClick={() => window.open("https://drive.google.com/file/d/1J6Ceo0InAXNVI1y1waFTaIvGY62Enjfq/view?usp=sharing", "_blank")} aria-current="page" href="">Resume</a>
+                    {/* href={Pdf} without rel="noopener noreferrer" target="_blank" */}
+                    {/* <a className="text" onClick={() => window.open("https://drive.google.com/file/d/1J6Ceo0InAXNVI1y1waFTaIvGY62Enjfq/view?usp=sharing", "_blank")} aria-current="page" href="">Resume</a> */}
+                    <a className="text" aria-current="page" href={resumePDF} without rel="noopener noreferrer" target="_blank">Resume</a>
                 </li>
             </ul>
         </section>
