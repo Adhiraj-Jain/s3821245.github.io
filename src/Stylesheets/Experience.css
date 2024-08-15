@@ -1,14 +1,164 @@
-.experience-section {
-    position: relative;
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
+html {
+    font-family: "Montserrat";
+} */
+
+.container {
+    min-height: 100vh;
+    min-width: 100% !important;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+section.experience-section {
+    /* position: relative; */
     padding-top: 5rem;
     padding-bottom: 2rem;
     background-color: black;
+    margin: 0rem 0rem !important;
+
 }
 
 .experience-section .section-headings {
     background-color: #fff;
     margin-left: 2rem;
 }
+
+.experience-container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.experience-container div.company {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    margin: 3rem 1rem;
+    position: relative;
+}
+
+/* css imported from - https://codepen.io/Web_Cifar/pen/jObBvqN */
+
+
+.timeline {
+    width: 80%;
+    height: auto;
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline ul {
+    list-style: none;
+}
+
+.timeline ul li {
+    padding: 20px;
+    background-color: #1e1f22;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* .timeline ul li:last-child {
+    margin-bottom: 0;
+} */
+
+.timeline-content h1 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    /*25px;*/
+    line-height: 30px;
+    /* margin-bottom: 10px; */
+}
+
+.experience-container span.location {
+    font-size: 0.8rem;
+    margin-bottom: 0.1rem;
+    color: #22A39F;
+}
+
+
+.timeline-content .summary {
+    font-size: 1.0rem;
+    /* 16px; */
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.timeline-content .date {
+    font-size: 1.0rem;
+    /* 12px; */
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+    .timeline:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background-color: gray;
+    }
+
+    .timeline ul li {
+        width: 50%;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .timeline ul li:nth-child(odd) {
+        float: left;
+        clear: right;
+        transform: translateX(-45px);
+        border-radius: 20px 0px 20px 20px;
+    }
+
+    .timeline ul li:nth-child(even) {
+        float: right;
+        clear: left;
+        transform: translateX(15px);
+        border-radius: 0px 20px 20px 20px;
+    }
+
+    .timeline ul li::before {
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: white;
+        top: 0px;
+    }
+
+    .timeline ul li:nth-child(odd)::before {
+        transform: translate(50%, -50%);
+        right: -30px;
+    }
+
+    .timeline ul li:nth-child(even)::before {
+        transform: translate(-50%, -50%);
+        left: -30px;
+    }
+
+    .timeline-content .date {
+        position: absolute;
+        top: -30px;
+    }
+
+    .timeline ul li:hover::before {
+        background-color: aqua;
+    }
+}
+
 
 .each-work {
     border-top: 1px rgba(255, 255, 255, 0.192) solid;
@@ -19,37 +169,16 @@
     border-top: transparent;
 }
 
-.experience-container {
-    padding-left: 6rem;
-    padding-right: 6rem;
-}
 
-.experience-container span.company {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #fff;
-}
-
-.experience-container span.year {
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-.experience-container span.position {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #fff;
-}
-
-.experience-container span.summary {
+/* .experience-container span.summary {
     padding-top: 0.2rem;
     font-size: 1rem;
     color: rgb(234, 234, 234);
-}
+} */
 
-.experience-container span.summary-heading {
+/* .experience-container span.summary-heading {
     font-weight: 700;
-}
+} */
 
 .experience-container .detail-button {
     margin-top: 0.5rem;
@@ -60,11 +189,6 @@
     font-size: 1rem;
     font-weight: 500;
     padding: 5px 18px;
-}
-
-.experience-container span.location {
-    padding-top: 0.4rem;
-    color: #22A39F;
 }
 
 .switch {

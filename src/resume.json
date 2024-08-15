@@ -1,10 +1,10 @@
 {
     "about": {
         "name": "Adhiraj Jain",
-        "profession": "Software Developer",
+        "profession": "Software Developer & Freelance Photographer",
         "picture": "",
         "aboutme": [
-            "Born in Delhi, India, living in Melbourne.",
+            "Born in Delhi, India, living in Australia.",
             "I’m a young and motivated software developer who has a passion to do a lot of things in his life whether it is fashion photography, music production or developing software’s. Since the age of 15, winning awards whether it was an international award or winning inter-school competitions, has motivated me and pushed me to achieve greater milestones in life. I don’t know where I will be standing in the next few years but one thing is sure that every single day, I am gonna wake up with an aspiration to achieve my goals and dreams, so are you ready to be a part of that journey?"
         ]
     },
@@ -20,64 +20,117 @@
             "username": "Adhiraj-Jain",
             "url": "https://github.com/Adhiraj-Jain",
             "icon": "fab fa-2x fa-github"
+        },
+        {
+            "network": "Instagram",
+            "username": "adhirajjainphotography_",
+            "url": "https://www.instagram.com/adhirajjainphotography_/?hl=en",
+            "icon": "fab fa-2x fa-github"
         }
     ],
     "volunteer": [
         {
+            "company": "The RedbackBots - RMIT University",
+            "positions": [
+                {
+                    "position": "Software Developer",
+                    "year": "March, 2023 - December, 2023",
+                    "summary": "Focused on implementing Whistle Detection using Machine Learning models for RoboCup SPL 2023 at Bordeaux, France. Furthermore, implementing behaviours of the robots.",
+                    "location": "Melbourne, Victoria, Australia"
+                }
+            ]
+        },
+        {
+            "company": "RMIT Indian Club",
+            "positions": [
+                {
+                    "position": "Public Relations Officer",
+                    "year": "March, 2023 - December, 2023",
+                    "summary": "To organise various events for HackMelbourne, create and implement strategies to increase student engangement.",
+                    "location": "Melbourne, Victoria, Australia"
+                }
+            ]
+        },
+        {
             "company": "HackMelbourne",
-            "position": "Student Engangement Officer",
-            "year": "January, 2022 - Current",
-            "summary": "To organise various events for HackMelbourne, create and implement strategies to increase student engangement.",
-            "location": "Melbourne, Victoria, Australia"
+            "positions": [
+                {
+                    "position": "Student Engangement Officer",
+                    "year": "January, 2022 - December, 2022",
+                    "summary": "To organise various events for HackMelbourne, create and implement strategies to increase student engangement.",
+                    "location": "Melbourne, Victoria, Australia"
+                }
+            ]
         },
         {
             "company": "RMIT University",
-            "position": "Peer Mentor",
-            "year": "March, 2022 - June, 2022",
-            "summary": "To assist other students who need help in courses. Empower and guide them to find answers for themselves.",
-            "location": "Melbourne, Victoria, Australia"
+            "positions": [
+                {
+                    "position": "Peer Mentor",
+                    "year": "March, 2022 - June, 2022",
+                    "summary": "To assist other students who need help in courses. Empower and guide them to find answers for themselves.",
+                    "location": "Melbourne, Victoria, Australia"
+                }
+            ]
         },
         {
             "company": "Club Hash",
-            "position": "President",
-            "year": "April, 2018 - March, 2019",
-            "summary": "Managing and organizing Tech-based inter- school competition events. Leading a team of professionals from various departments such as financial, logistics, developers etc.",
-            "location": "Delhi, India"
+            "positions": [
+                {
+                    "position": "President",
+                    "year": "April, 2018 - March, 2019",
+                    "summary": "Managing and organizing Tech-based inter- school competition events. Leading a team of professionals from various departments such as financial, logistics, developers etc.",
+                    "location": "Delhi, India"
+                }
+            ]
         }
     ],
     "work": [
         {
-            "company": "Paperless Warehousing",
-            "position": "Development Support Analyst",
-            "year": "February, 2023 - Current",
-            "summary": "Provide client support and advice, develop software, assisted in scoping and preparing development specifications, manage version control, helped with bug fixing and data correction, configured client systems, and managed software quality assurance testing.",
-            "location": "Melbourne, Victoria, Australia"
-        },
-        {
-            "company": "Uniware Pty. Ltd. & Paperless Warehousing",
-            "position": "Software Development Intern",
-            "year": "January, 2022 - February, 2023",
-            "summary": "Provide client support, transform existing SOAP interface with latest technology, create API testing application to support development work.",
-            "location": "Melbourne, Victoria, Australia"
+            "company": "Paperless Warehousing: A member of the Uniware Group",
+            "positions": [
+                {
+                    "position": "Software Engineer",
+                    "year": "January, 2024 - Current",
+                    "summary": "As a software engineer, I develop and optimize core application features to enhance critical warehouse operations. I also handle various DevOps responsibilities, including preparing development specifications for new integrations, managing feature deployment, and creating pipelines. My role involves automating tasks, implementing CI/CD pipelines, managing infrastructure as code, ensuring robust monitoring and logging, maintaining consistent configurations, integrating security practices, optimizing performance, handling incidents, and ensuring systems are scalable and reliable.",
+                    "location": "Sydney, NSW, Australia"
+                },
+                {
+                    "position": "Development Support Analyst",
+                    "year": "February, 2023 - December, 2023 (Part Time)",
+                    "summary": "Developed new releases of the SOAP interface while supporting legacy versions. Provided client support and advice by analyzing and applying bug fixes to core application features.",
+                    "location": "Sydney, NSW, Australia"
+                },
+                {
+                    "position": "Software Development Intern",
+                    "year": "January, 2022 - February, 2023",
+                    "summary": "Initially hired by Uniware and later transitioned to Paperless Warehousing (a Uniware Group company) to address critical software issues and support business rebuilding. Designed, implemented, and supported SOAP interfaces across all customer sites, including a modern interface using Python with a perl based legacy system compatibility. Also developed an API testing application using Django framework to facilitate the rollout of new features.",
+                    "location": "Melbourne, Victoria, Australia"
+                }
+            ]
         },
         {
             "company": "Coding Ninjas",
-            "position": "Teaching Assistant",
-            "year": "December, 2020 - April, 2021",
-            "summary": "Solving 300+ doubts monthly based on Data Structures and Algorithms and evaluation of projects.",
-            "location": "Delhi, India"
+            "positions": [
+                {
+                    "position": "Teaching Assistant",
+                    "year": "December, 2020 - April, 2021",
+                    "summary": "Solving 300+ doubts monthly based on Data Structures and Algorithms and evaluation of projects.",
+                    "location": "Delhi, India"
+                }
+            ]
         }
     ],
     "education": [
         {
-            "institution": "RMIT University, Melbourne, AUS",
+            "institution": "RMIT University, Australia",
             "degree": "Bachelor of Software Engineering",
-            "year": "2020-2023 (Expected)"
+            "year": "2020-2023"
         },
         {
             "institution": "Darbari Lal DAV Model School",
-            "degree": "Engineering Science",
-            "year": "2018-2019"
+            "degree": "Engineering Science - Physics, Chemistery, Mathematics, CS",
+            "year": "2017-2019"
         }
     ],
     "certification": [
@@ -109,9 +162,29 @@
     ],
     "awards": [
         {
-            "name": "Excellence in On The Spot International Photography Contest",
+            "name": "2 x Winner of Excellence in On The Spot International Photography Contest",
             "institution": "Shoots & Shoots Academy",
             "year": "2017-18"
+        },
+        {
+            "name": "Invitation for game developers Summit 2017",
+            "institution": "Google",
+            "year": "2017-18"
+        },
+        {
+            "name": "Bronze medalist - Movie Making International competition",
+            "institution": "Global Virtual classrooms (GVC)",
+            "year": "2017-18"
+        },
+        {
+            "name": "Winner of International Movie making competition",
+            "institution": "Tony Blair foundation, Ireland",
+            "year": "2016-17"
+        },
+        {
+            "name": "Participated in A2oz competition",
+            "institution": "Australian government and private institutions of Australia",
+            "year": "2015-16"
         }
     ],
     "skills": {
@@ -121,7 +194,9 @@
             "JavaScript": 3,
             "React": 3,
             "Node": 3,
-            "SpringBoot": 3
+            "SpringBoot": 3,
+            "Django": 3,
+            "Flask": 2
         },
         "Object Oriented Programming Languages": {
             "C++": 3,
@@ -129,7 +204,7 @@
             "Python": 3,
             "Ruby": 3,
             "C#": 2,
-            "JBASE": 2
+            "BASIC": 2
         },
         "Cloud and Databases": {
             "AWS": 3,
@@ -146,175 +221,264 @@
             "Jupyter Notebook": 4,
             "Eclipse": 3,
             "Visual Studio": 3,
-            "GitLab": 2
+            "GitLab": 2,
+            "Premiere Pro": 4,
+            "Lightroom Classic": 3,
+            "Photoshop": 2,
+            "Filmora": 5
         }
     },
     "projects": {
-        "Machine Learning for Whistle Detection for RoboCup SPL 2023": {
-            "img": "/Machine Learning for Whistle Detection for RoboCup SPL 2023.jpeg",
-            "summary": [
-                ""
-            ],
-            "month": "June 2023",
-            "aim": "Aim of this project is to make an autonomous robot that can explore an unknown environment, such as a partially collapsed building, and locate trapped or unconscious human victims of the disaster.",
-            "link": "",
-            "Languages Used": [
-                "Python",
-                "C++"
-            ],
-            "Tools Used": [
-                "Visual Studio Code",
-                "Softbank Nao V6 robot",
-                "TO DO"
-            ]
+        "TECHNICAL": {
+            "RMIT ChatGPTAI Capstone Project": {
+                "img": "/rmitchatgptai.png",
+                "summary": [
+                    "This software will be used to analyse and identify the best performing paid search ad in targeted countries.",
+                    "It will help RMIT to test and optimise ad copy by analysing which versions of an ad perform best and adjusting accordingly.",
+                    "The project scope was expanded to web scrape ads from all universities around the globe to identify key elements in ads.",
+                    "Note: Due to NDA agreements, the GitHub repository/codebase cannot be shared."
+                ],
+                "month": "November 2023",
+                "aim": "The primary goal of the project is to increase CTR (Click Through Rate) by 10%.",
+                "link": "https://www.rmitchatgptai.com/login/",
+                "Languages Used": [
+                    "React",
+                    "Flask",
+                    "Python",
+                    "JavaScript",
+                    "AWS Elastic Beanstalk"
+                ],
+                "Tools Used": [
+                    "Visual Studio Code",
+                    "GitHub"
+                ],
+                "buttonName": "View Website"
+            },
+            "PAC-MAN PROJECT": {
+                "img": "/pacman.jpeg",
+                "summary": [
+                    "Used informed state-space search like A*, UCS etc., and multi-agent search like minimax and expectimax algorithms.",
+                    "Furthermore, used reinforcement learning such as MDPs, value iteration, Q-learning and probabilistic inference techniques."
+                ],
+                "month": "November 2023",
+                "aim": "To apply an array of AI techniques to play Pac-Man using foundational AI concepts.",
+                "link": "https://github.com/Adhiraj-Jain/pac-man",
+                "Languages Used": [
+                    "Python"
+                ],
+                "Tools Used": [
+                    "Visual Studio Code",
+                    "GitHub"
+                ]
+            },
+            "ROS Navigation and Search Challenge": {
+                "img": "/ROS Navigation and Search Challenge.jpeg",
+                "summary": [
+                    "The Search & Navigation Challenge is inspired by autonomous robotics for Urban Search and Rescue (USAR) and the RoboCup Rescue Robot League. In USAR after a disaster occurs, an autonomous robot can explore an unknown environment, such as a partially collapsed building, and locate trapped or unconscious human victims of the disaster. The robot builds a map as it explores and places markers in the map of where the victim’s locations. This map is given to First Responders who use it to go into the building and rescue the victims.",
+                    "The ROSBot can explore an unknown location, locate a series of pre-defined objects, place the objects in the map, return the robot to it’s starting position while plotting the path the robot took on the map and make sure to complete the challenge as fast and as accurately as possible."
+                ],
+                "month": "April 2023",
+                "aim": "Aim of this project is to make an autonomous robot that can explore an unknown environment, such as a partially collapsed building, and locate trapped or unconscious human victims of the disaster.",
+                "link": "https://github.com/Adhiraj-Jain/ROS_NAVIGATION_AND_SEARCH_CHALLENGE",
+                "Languages Used": [
+                    "Python"
+                ],
+                "Tools Used": [
+                    "Visual Studio Code",
+                    "Rosbot Pro 2.0",
+                    "TheConstruct ROS Development Studio",
+                    "ROS packages"
+                ]
+            },
+            "Life Expecting of a device using Machine Learning": {
+                "img": "/Life Expecting of a device using Machine Learning.jpeg",
+                "summary": [
+                    "In a significant project focusing on image classification within the biotech realm, the primary objective was to leverage machine learning techniques to discern cancerous cells from non-cancerous ones (Task 1) and categorize cells into distinct types (Task 2).",
+                    "Employing Neural Network (NN) models, specifically Multilayer Perceptron (MLP) and Convolutional Neural Network (CNN) architectures, Task 1 aimed for a model with a loss function <0.2 and ≥90% ROC, while Task 2 targeted a loss function <0.3 and ≥80% F1 score on unseen data. Metrics utilized for model evaluation included loss values and Area Under the Curve (AUC) of the ROC, vital for accurate binary classification.",
+                    "Model_3 excelled in Task 1, showing promising performance despite minor goal deviations, suggesting real-world deployment with slight enhancements. However, Task 2's Model_5 needs substantial refinement before practical implementation.",
+                    "This project parallels studies by Korsuk Sirinukunwattana and Shan E Ahmed Raza, albeit using different metrics and additional techniques for better model generalization."
+                ],
+                "month": "April 2023",
+                "aim": "Aim of this project is to develop a machine learning system that can classify histopathelogy images of cancerous cells.",
+                "link": "https://github.com/Adhiraj-Jain/Life-Expecting-of-a-device-using-Machine-Learning",
+                "Languages Used": [
+                    "Python"
+                ],
+                "Tools Used": [
+                    "Visual Studio Code",
+                    "Jupyter Notebook",
+                    "Tensorflow",
+                    "Keras"
+                ]
+            },
+            "Bookeroo E-commerce Web App": {
+                "img": "/Bookeroo E-commerce Web App.jpeg",
+                "summary": [
+                    "Bookeroo, a full stack web application to provide online book selling and sharing services for their users. It was implemented using frameworks such as SpringBoot for Backend application part and React for Frontend application part, the communication was done using RESTFUL APIs.",
+                    " Test Driven Development and agile methodologies were used to develop this application. For secure and faster checkouts, a PayPal API payment system was integrated into the system. To make sure all tests run successfully and application is tested at every stage of development, a CI/CD was introduced with the help of platform called CircleCI, the work of this service is to run tests and install dependencies before deploying the application. This platform is built using advanced UI Patterns to make sure it is user-friendly."
+                ],
+                "month": "October 2021",
+                "aim": "Aim of this project is to make an ecommerce web application for books.",
+                "link": "https://github.com/Adhiraj-Jain/Bookeroo-Ecommerce-Web-App",
+                "Languages Used": [
+                    "React",
+                    "JavaScript",
+                    "Java"
+                ],
+                "Tools Used": [
+                    "Visual Studio Code",
+                    "Spring Boot",
+                    "AWS Amplify",
+                    "AWS Beanstalk",
+                    "CircleCI (CI/CD)",
+                    "IntellIJ",
+                    "GitHub",
+                    "Docker"
+                ]
+            },
+            "Qwirkle: A Board Game": {
+                "img": "/Qwirkle- A Board Game.jpeg",
+                "summary": [
+                    "A multi-player text based version of board game called Qwirkle. It was developed in C++ using complex software algorithms with immense use of Data Structures and algorithms such as pointers, Linked Lists, File handling etc. This program also handles Dynamic memory management it make it more efficient.",
+                    " Before the development of this game, various different kind of test cases were made to ensure game works fine in normal and edge case scenarios. Various software designs and development strategies have been used."
+                ],
+                "month": "May 2021",
+                "aim": "Implemented a multiple player board game using Object Oriented programming.",
+                "link": "https://github.com/Adhiraj-Jain/Qwirkle-A-Board-Game",
+                "Languages Used": [
+                    "C++"
+                ],
+                "Tools Used": [
+                    "Visual Studio Code"
+                ]
+            },
+            "E-commerce Web Application": {
+                "img": "/E-commerce Web Application.jpeg",
+                "summary": [
+                    "A full stack web application developed using agile style of methodologies. Some interesting features about this application which I would like to highglight are, an user can login with twitter account, a newsletter subscription which is integrated using SendGrid emailing system which sends out an email to the subscribed email address.",
+                    " As it as an e-commerce website, it also has capabilities of dynamically changing the application view results based on popularity of items, filters, sorting etc. "
+                ],
+                "month": "May 2021",
+                "tools": "Ruby on Rails, AWS cloud9 IDE, Heroku",
+                "aim": "The objective of this project was to develop high level web development skills including task analysis, fast development, testing and team collaboration. ",
+                "link": "https://github.com/Adhiraj-Jain/Ecommerce-Web-Application",
+                "Languages Used": [
+                    "Ruby"
+                ],
+                "Tools Used": [
+                    "AWS Cloud 9",
+                    "Visual Studio Code"
+                ]
+            },
+            "Black Jack: A Card Game": {
+                "img": "/Black Jack- A Card Game.jpeg",
+                "summary": [
+                    "A multi-player game with a house, popularly known as Black Jack. It's a casino style card game that is loosely based on Black Jack but is for the gambler in a hurry that doesn't want to think too hard and wants to trust in luck alone without having to worry about statistics! ",
+                    "The graphical user interface of this application has been developed using Java libraries, AWT/Swing and follows MVC structure. The engine of this application has been built with extensive use of skills such as Data structures and algorithms for example, Linked Lists, random card extracting etc."
+                ],
+                "month": "November 2020",
+                "tools": "Java, Eclipse",
+                "aim": "Purpose of this project is to build a black jack game engine and its AWT/Swing Graphical user Interface.",
+                "link": "https://github.com/Adhiraj-Jain/Black-Jack-Game",
+                "Languages Used": [
+                    "Java"
+                ],
+                "Tools Used": [
+                    "Eclipse"
+                ]
+            },
+            "Instagram Bot": {
+                "img": "/Instagram Bot.png",
+                "summary": [
+                    "The bot can extract information about someone's profile including followers, posts information etc. The bot can also search over the website, can like or comment someone's post. It can also see a user’s story. It can find profiles with top followers and can Follow/Unfollow a user. Mathematical operations performed like finding mean, median etc."
+                ],
+                "month": "December 2019",
+                "tools": "Beautiful Soup, Selenium, NumPy and pandas.",
+                "aim": "Purpose of project is to scrap data from Instagram web using algorithms.",
+                "link": "https://github.com/Adhiraj-Jain/Instagram-Bot",
+                "Languages Used": [
+                    "Python"
+                ],
+                "Tools Used": [
+                    "Jupyter Notebook",
+                    "Selenium",
+                    "PyCharts"
+                ]
+            },
+            "FitBuddy: A Fitness Application": {
+                "img": "/FitBuddy- A Fitness Application.png",
+                "summary": [
+                    "A fitness application prototype, built as a part of an assignment work during course program. Its has various pages and sections such as login, signup, homepage, filters, search page etc.",
+                    "Different User Interface patterns have been taken into consideration to make it more user effective and interactive."
+                ],
+                "month": "June 2020",
+                "tools": "Figma, publicly available online assets.",
+                "aim": "Purpose of this project is to build a prototype of a fitness application which show users what exercises to do and explain exactly how to do them.",
+                "link": "https://www.figma.com/proto/wJqV2XQS7tCcjsBNr8K8Py/FInal-FitBuddy?%20node-%20id=1%3A5308&scaling=scale-down&node-id=1%3A5269",
+                "Languages Used": [],
+                "Tools Used": [
+                    "Figma"
+                ],
+                "buttonName": "Visit Prototype"
+            }
         },
-        "ROS Navigation and Search Challenge": {
-            "img": "/ROS Navigation and Search Challenge.jpeg",
-            "summary": [
-                "The Search & Navigation Challenge is inspired by autonomous robotics for Urban Search and Rescue (USAR) and the RoboCup Rescue Robot League. In USAR after a disaster occurs, an autonomous robot can explore an unknown environment, such as a partially collapsed building, and locate trapped or unconscious human victims of the disaster. The robot builds a map as it explores and places markers in the map of where the victim’s locations. This map is given to First Responders who use it to go into the building and rescue the victims.",
-                "The ROSBot can explore an unknown location, locate a series of pre-defined objects, place the objects in the map, return the robot to it’s starting position while plotting the path the robot took on the map and make sure to complete the challenge as fast and as accurately as possible."
-            ],
-            "month": "April 2023",
-            "aim": "Aim of this project is to make an autonomous robot that can explore an unknown environment, such as a partially collapsed building, and locate trapped or unconscious human victims of the disaster.",
-            "link": "",
-            "Languages Used": [
-                "Python"
-            ],
-            "Tools Used": [
-                "Visual Studio Code",
-                "Rosbot Pro 2.0",
-                "TheConstruct ROS Development Studio",
-                "ROS packages"
-            ]
-        },
-        "Life Expecting of a device using Machine Learning": {
-            "img": "/Life Expecting of a device using Machine Learning.jpeg",
-            "summary": [
-                "",
-                ""
-            ],
-            "month": "April 2023",
-            "aim": "Aim of this project is to",
-            "link": "",
-            "Languages Used": [
-                "Python"
-            ],
-            "Tools Used": [
-                "Visual Studio Code",
-                "Jupyter Notebook",
-                "Tensorflow",
-                "Keras"
-            ]
-        },
-        "Bookeroo E-commerce Web App": {
-            "img": "/Bookeroo E-commerce Web App.jpeg",
-            "summary": [
-                "Bookeroo, a full stack web application to provide online book selling and sharing services for their users. It was implemented using frameworks such as SpringBoot for Backend application part and React for Frontend application part, the communication was done using RESTFUL APIs.",
-                " Test Driven Development and agile methodologies were used to develop this application. For secure and faster checkouts, a PayPal API payment system was integrated into the system. To make sure all tests run successfully and application is tested at every stage of development, a CI/CD was introduced with the help of platform called CircleCI, the work of this service is to run tests and install dependencies before deploying the application. This platform is built using advanced UI Patterns to make sure it is user-friendly."
-            ],
-            "month": "October 2021",
-            "aim": "Aim of this project is to make an ecommerce web application for books.",
-            "link": "https://github.com/Adhiraj-Jain/Bookeroo-Ecommerce-Web-App",
-            "Languages Used": [
-                "React",
-                "JavaScript",
-                "Java"
-            ],
-            "Tools Used": [
-                "Visual Studio Code",
-                "Spring Boot",
-                "AWS Amplify",
-                "AWS Beanstalk",
-                "CircleCI (CI/CD)",
-                "IntellIJ",
-                "GitHub",
-                "Docker"
-            ]
-        },
-        "Qwirkle: A Board Game": {
-            "img": "/Qwirkle- A Board Game.jpeg",
-            "summary": [
-                "A multi-player text based version of board game called Qwirkle. It was developed in C++ using complex software algorithms with immense use of Data Structures and algorithms such as pointers, Linked Lists, File handling etc. This program also handles Dynamic memory management it make it more efficient.",
-                " Before the development of this game, various different kind of test cases were made to ensure game works fine in normal and edge case scenarios. Various software designs and development strategies have been used."
-            ],
-            "month": "May 2021",
-            "aim": "Implemented a multiple player board game using Object Oriented programming.",
-            "link": "https://github.com/Adhiraj-Jain/Qwirkle-A-Board-Game",
-            "Languages Used": [
-                "C++"
-            ],
-            "Tools Used": [
-                "Visual Studio Code"
-            ]
-        },
-        "E-commerce Web Application": {
-            "img": "/E-commerce Web Application.jpeg",
-            "summary": [
-                "A full stack web application developed using agile style of methodologies. Some interesting features about this application which I would like to highglight are, an user can login with twitter account, a newsletter subscription which is integrated using SendGrid emailing system which sends out an email to the subscribed email address.",
-                " As it as an e-commerce website, it also has capabilities of dynamically changing the application view results based on popularity of items, filters, sorting etc. "
-            ],
-            "month": "May 2021",
-            "tools": "Ruby on Rails, AWS cloud9 IDE, Heroku",
-            "aim": "The objective of this project was to develop high level web development skills including task analysis, fast development, testing and team collaboration. ",
-            "link": "https://github.com/Adhiraj-Jain/Ecommerce-Web-Application",
-            "Languages Used": [
-                "Ruby"
-            ],
-            "Tools Used": [
-                "AWS Cloud 9",
-                "Visual Studio Code"
-            ]
-        },
-        "Black Jack: A Card Game": {
-            "img": "/Black Jack- A Card Game.jpeg",
-            "summary": [
-                "A multi-player game with a house, popularly known as Black Jack. It's a casino style card game that is loosely based on Black Jack but is for the gambler in a hurry that doesn't want to think too hard and wants to trust in luck alone without having to worry about statistics! ",
-                "The graphical user interface of this application has been developed using Java libraries, AWT/Swing and follows MVC structure. The engine of this application has been built with extensive use of skills such as Data structures and algorithms for example, Linked Lists, random card extracting etc."
-            ],
-            "month": "November 2020",
-            "tools": "Java, Eclipse",
-            "aim": "Purpose of this project is to build a black jack game engine and its AWT/Swing Graphical user Interface.",
-            "link": "https://github.com/Adhiraj-Jain/Black-Jack-Game",
-            "Languages Used": [
-                "Java"
-            ],
-            "Tools Used": [
-                "Eclipse"
-            ]
-        },
-        "Instagram Bot": {
-            "img": "/Instagram Bot.png",
-            "summary": [
-                "The bot can extract information about someone's profile including followers, posts information etc. The bot can also search over the website, can like or comment someone's post. It can also see a user’s story. It can find profiles with top followers and can Follow/Unfollow a user. Mathematical operations performed like finding mean, median etc."
-            ],
-            "month": "December 2019",
-            "tools": "Beautiful Soup, Selenium, NumPy and pandas.",
-            "aim": "Purpose of project is to scrap data from Instagram web using algorithms.",
-            "link": "https://github.com/Adhiraj-Jain/Instagram-Bot",
-            "Languages Used": [
-                "Python"
-            ],
-            "Tools Used": [
-                "Jupyter Notebook",
-                "Selenium",
-                "PyCharts"
-            ]
-        },
-        "FitBuddy: A Fitness Application": {
-            "img": "/FitBuddy- A Fitness Application.png",
-            "summary": [
-                "A fitness application prototype, built as a part of an assignment work during course program. Its has various pages and sections such as login, signup, homepage, filters, search page etc.",
-                "Different User Interface patterns have been taken into consideration to make it more user effective and interactive."
-            ],
-            "month": "June 2020",
-            "tools": "Figma, publicly available online assets.",
-            "aim": "Purpose of this project is to build a prototype of a fitness application which show users what exercises to do and explain exactly how to do them.",
-            "link": "https://www.figma.com/proto/wJqV2XQS7tCcjsBNr8K8Py/FInal-FitBuddy?%20node-%20id=1%3A5308&scaling=scale-down&node-id=1%3A5269",
-            "Languages Used": [],
-            "Tools Used": [
-                "Figma"
-            ],
-            "buttonName": "Visit Prototype"
+        "FINANCE": {
+            "Woolworths Company Evaluation": {
+                "img": "/woolworths.png",
+                "summary": [
+                    "Conducted comprehensive analysis and valuation, using DDM, FCFE models, and comparative analysis techniques to formulate the report.",
+                    "Utilized Diverse Valuation Methods such as CAPM, DuPont Analysis, and Relative Valuation techniques, evaluate ROE, and compare company's performance against industry peers.",
+                    "Analyzed historical financial performances, industry structure, and macroeconomic factors resulting in substantiated 'Buy,' 'Sell,' or 'Hold' rating."
+                ],
+                "month": "November 2023",
+                "tools": "",
+                "aim": "Conducting a comprehensive valuation analysis of Woolworths Group to formulate a data-driven investment recommendation report.",
+                "link": "https://drive.google.com/file/d/1XdkqF6VCu4pwOwCziIvkrxJ7vHPjFrST/view?usp=sharing",
+                "Languages Used": [],
+                "Tools Used": [],
+                "buttonName": "View Report"
+            },
+            "Equity Investment & Portfolio Management Report": {
+                "img": "/EQIPM.png",
+                "summary": [
+                    "Two $1,000,000 equity investment portfolios were created, one passive portfolio replicating the return of the index and one active portfolio to achieve your investment objective of outperforming the index",
+                    "Report explains the investment strategy for constructing a passive and an active portfolio and contains evaluation of the investment performance of each in terms of absolute and relative return, risk and attribution effects to explain the differences in performance of each portfolio."
+                ],
+                "month": "November 2023",
+                "tools": "",
+                "aim": "To construct two equity investment portfolios, i.e., one passive portfolio & one active portfolio.",
+                "link": "https://drive.google.com/file/d/1UBDnfI57wD_8NYzbT9loF0wAyXo9MHH8/view?usp=sharing",
+                "Languages Used": [],
+                "Tools Used": [],
+                "buttonName": "View Report"
+            },
+            "HP Inc - Business Project Report": {
+                "img": "/hp.avif",
+                "summary": [
+                    "EXECUTIVE SUMMARY",
+                    "HP Inc is seeking advice on the financial possibility of the company’s smartphone project. The analysis of its free cash flow with the estimated revenue shows a positive NPV, whereas 25% reduction of revenue will lead to a negative NPV and a considerable decrease in IRR, especially lower than cost of capital. Smartphone market insights highlight the difficulties related to unexpected factors like war and inflationary pressures, severe competitive with the participants of both major and emerging companies, and high brand loyalty when approaching smartphone market. After analysing potential risks, the project is identified to start to suffer a financial loss when the revenue is 3% less than the proposed amount. Applying DEPEST, the study provides further information of economic, political, socio-cultural, demographics, and technological factors for the management team to consider the project’s possibility. Following those evaluation, HP company is recommended to invest in this project but should consider some potential risks can occur."
+                ],
+                "month": "June 2023",
+                "tools": "",
+                "aim": "To provide a Business Report to HP Inc advicing on the financial possibility of the company’s smartphone project.",
+                "link": "https://drive.google.com/drive/folders/1diAE24shp2bctbrE7UKGOY7wZaMcPaU2?usp=sharing",
+                "Languages Used": [],
+                "Tools Used": [],
+                "buttonName": "View Report & Evaluations"
+            },
+            "Telstra Group Limited - Analysis Report": {
+                "img": "/Telstra.png",
+                "summary": [
+                    "Led comprehensive financial analyses for a publicly traded company, adhering to specific criteria encompassing stock listing in Australia, dividend payments for over 5 years, and outstanding bonds and shares. Assessed the company's financial health over recent years supported by reputable business publications. Analyzed bonds, estimating credit spreads and future prices, alongside predicting credit ratings. Conducted in-depth share analysis, tracking stock price changes, evaluating dividend payments, and calculating investor returns. Evaluated systematic risk in company shares, comparing against two competitors, while also examining payout policies, including dividend distributions, reinvestment strategies, and share repurchases. Furthermore, conducted a thorough assessment of the company's capital structure, estimating the weighted average cost of capital (WACC) and compared it against two competitors for strategic insights."
+                ],
+                "month": "June 2023",
+                "tools": "",
+                "aim": "To write a Firm Analysis Report on Telstra Group Limited analysing the finances of the company",
+                "link": "https://drive.google.com/file/d/1V4OIWVMmTv_JI70mpenM1_OLRMKgy79S/view?usp=sharing",
+                "Languages Used": [],
+                "Tools Used": [],
+                "buttonName": "View Report"
+            }
         }
     },
     "imageData": {
