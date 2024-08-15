@@ -23,7 +23,7 @@ const About = () => {
         <section id='aboutMe' className="aboutme container-fluid px-0">
             <div className="row about-row">
                 <div className="about-pic-col col-lg-6">
-                    <img className="" src="aboutme.jpeg" alt="About"></img>
+                    <img className="" src="aboutme2.JPG" alt="About"></img>
                 </div>
                 <div className="about-text-col col-lg-6 mt-2">
                     <div className="col-lg-10">
