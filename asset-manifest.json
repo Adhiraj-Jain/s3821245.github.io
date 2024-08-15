@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.686a860f.css",
-    "main.js": "/static/js/main.81b9ffe4.js",
+    "main.js": "/static/js/main.9f517729.js",
     "static/media/Adhiraj Jain - Resume.pdf": "/static/media/Adhiraj Jain - Resume.94e7d06a2d2100af4191.pdf",
     "static/media/contactme2.jpeg": "/static/media/contactme2.9fc4f0ba8d795532a4a8.jpeg",
     "static/media/me.jpg": "/static/media/me.0ef99ae1cb6c02122189.jpg",
     "static/media/project_bg.jpeg": "/static/media/project_bg.691c3b3e1f9d86b34e4c.jpeg",
     "index.html": "/index.html",
     "main.686a860f.css.map": "/static/css/main.686a860f.css.map",
-    "main.81b9ffe4.js.map": "/static/js/main.81b9ffe4.js.map"
+    "main.9f517729.js.map": "/static/js/main.9f517729.js.map"
   },
   "entrypoints": [
     "static/css/main.686a860f.css",
-    "static/js/main.81b9ffe4.js"
+    "static/js/main.9f517729.js"
   ]
 }
