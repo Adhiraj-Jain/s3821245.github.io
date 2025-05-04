@@ -53,7 +53,7 @@ const NavBar = ({ pageHeight }) => {
                 <MenuItem text="Skills" href="#skills" onClick={handleMenuClick} />
                 <MenuItem text="Experience" href="#experience" onClick={handleMenuClick} />
                 <MenuItem text="Projects" href="#projects" onClick={handleMenuClick} />
-                <MenuItem text="Gallery" href="#gallery" onClick={handleMenuClick} />
+                {/* <MenuItem text="Gallery" href="#gallery" onClick={handleMenuClick} /> */}
                 <MenuItem text="Contact" href="#contactme" onClick={handleMenuClick} />
             </ul>
         </nav>
