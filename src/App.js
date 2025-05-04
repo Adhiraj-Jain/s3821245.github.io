@@ -45,7 +45,7 @@ const App = () => {
         <Skills />
         <Experience />
         <Projects openModal={openModal} />
-        <Gallery />
+        {/* <Gallery /> */}
         <Quote />
         <ContactMe />
         <Footer />
