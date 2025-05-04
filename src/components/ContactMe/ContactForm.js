@@ -47,7 +47,7 @@ const ContactForm = () => {
     }
 
     return (
-        <div id="contact-form" className="col-md-6 col-12 mb-5">
+        <div id="contact-form" className="col-md-6 col-12">
             <div className="col-md-9">
                 <form id="contactme-form" action="https://formspree.io/f/xyyovdkk" method="post">
                     <div className="mb-3">
